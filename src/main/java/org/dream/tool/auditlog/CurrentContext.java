@@ -1,9 +1,7 @@
 package org.dream.tool.auditlog;
 
 import org.aopalliance.intercept.MethodInvocation;
-import org.dream.tool.auditlog.processor.ProcessorStrategy;
-
-import java.lang.reflect.Method;
+import org.dream.tool.auditlog.matedata.LogDefinition;
 
 /**
 * 当前上下文  
@@ -19,7 +17,7 @@ public class CurrentContext {
 	/**
 	 * 当前参数属性
 	 */
-	private ParamAttribute paramAttribute;
+	private AttributeAccess attributeAccess;
 
 	/**
 	 * 拦截方法包装
@@ -50,9 +48,9 @@ public class CurrentContext {
 	private String  processorStrategyName;
 
 
-	public CurrentContext(LogDefinitionRegistry logDefinitionRegistry , ParamAttribute paramAttribute , InterceptMethodWrapper interceptMethodWrapper){
+	public CurrentContext(LogDefinitionRegistry logDefinitionRegistry , AttributeAccess attributeAccess, InterceptMethodWrapper interceptMethodWrapper){
 		this.logDefinitionRegistry = logDefinitionRegistry;
-		this.paramAttribute = paramAttribute;
+		this.attributeAccess = attributeAccess;
 		this.interceptMethodWrapper = interceptMethodWrapper;
 	}
 
@@ -60,7 +58,7 @@ public class CurrentContext {
 	 * 解析log定义
 	 */
 	void parseLogDefinition(ComponentFactory componentFactory) {
-		this.logDefinition = logDefinitionRegistry.getLogDefinition(this.interceptMethodWrapper.getMethod());
+		this.logDefinition = logDefinitionRegistry.getLogDefinition(interceptMethodWrapper.getTarget().getClass() ,this.interceptMethodWrapper.getMethod());
 		//创建日志生成器
 		Class<? extends LogProducer> logProducerClass = this.logDefinition.getLogProducerClass();
 		this.logProducer = (LogProducer) componentFactory.createComponent(logProducerClass);
@@ -85,8 +83,8 @@ public class CurrentContext {
 		return logDefinitionRegistry;
 	}
 
-	public ParamAttribute getParamAttribute() {
-		return paramAttribute;
+	public AttributeAccess getAttributeAccess() {
+		return attributeAccess;
 	}
 
 	public InterceptMethodWrapper getInterceptMethodWrapper() {

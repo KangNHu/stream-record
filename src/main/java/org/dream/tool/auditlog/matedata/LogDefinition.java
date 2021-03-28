@@ -1,7 +1,10 @@
-package org.dream.tool.auditlog;
+package org.dream.tool.auditlog.matedata;
 
+import org.dream.tool.auditlog.LogProducer;
+import org.dream.tool.auditlog.Pipeline;
 import org.dream.tool.auditlog.processor.ProcessorStrategy;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
 
@@ -10,6 +13,9 @@ import java.util.List;
  * @author hukangning
  */
 public interface LogDefinition {
+
+
+	Class<?> getTargetClass();
 
 	/**
 	 * 被记录的方法
@@ -20,6 +26,8 @@ public interface LogDefinition {
 
 	/**
 	 * 日志模版
+	 * 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#EXPRESSION_NAME}时 则代表的是el表达式模版
+	 * 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#ROUTE_NAME}时 则代表路由的目标方法名称
 	 * @return
 	 */
 	String getTemple();
@@ -62,10 +70,10 @@ public interface LogDefinition {
 
 
 	/**
-	 * 获取参数
+	 * 获取参数列表元数据
 	 * @return
 	 */
-	List<ParamMetadata>[] getParams();
+	List<ParamNode>[] getParams();
 
 
 	/**

@@ -7,6 +7,6 @@ package org.dream.tool.auditlog;
 public interface ParamParse {
 
 
-	ParamAttribute parse(InterceptMethodWrapper interceptMethodWrapper);
+	void parse(CurrentContext currentContext);
 
 }

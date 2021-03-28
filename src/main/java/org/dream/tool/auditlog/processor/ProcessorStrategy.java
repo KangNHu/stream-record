@@ -22,12 +22,12 @@ public class ProcessorStrategy {
 	/**
 	 * 表达式实现
 	 */
-	public static final ProcessorStrategy EXPRESSION = new ProcessorStrategy(EXPRESSION_NAME ,  null);
+	public static final ProcessorStrategy EXPRESSION = new ProcessorStrategy(EXPRESSION_NAME ,  new ExpressionProcessor());
 
 	/**
 	 * 路由方式实现
 	 */
-	public static final ProcessorStrategy ROUTE = new ProcessorStrategy(ROUTE_NAME ,null);
+	public static final ProcessorStrategy ROUTE = new ProcessorStrategy(ROUTE_NAME ,new MethodRouteProcessor());
 
 
 	/**

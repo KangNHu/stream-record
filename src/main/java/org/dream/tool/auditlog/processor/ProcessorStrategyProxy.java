@@ -1,6 +1,9 @@
 package org.dream.tool.auditlog.processor;
 
 import org.dream.tool.auditlog.*;
+import org.dream.tool.auditlog.matedata.Advice;
+import org.dream.tool.auditlog.matedata.AuditLogInfoWrapper;
+import org.dream.tool.auditlog.matedata.LogDefinition;
 
 import java.util.HashMap;
 import java.util.concurrent.Executor;
@@ -90,14 +93,14 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 		if (logProducer == null){
 			logProducer = defaultLogProducer;
 		}
-		Object o = logProducer.doProduce(currentContext);
+		AuditLogInfoWrapper auditLogInfoWrapper = logProducer.doProduce(currentContext);
 		Pipeline pipeline = currentContext.getPipeline();
 		//如果指定日志生成器则用指定的管道，否则使用全局的日志管道
 		if (pipeline == null){
 			pipeline = defaultPipeline;
 		}
 		if (pipeline != null){
-			pipeline.doConsume(o);
+			pipeline.doConsume(auditLogInfoWrapper);
 		}
 	}
 

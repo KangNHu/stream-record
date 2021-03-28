@@ -1,5 +1,8 @@
 package org.dream.tool.auditlog;
 
+import org.dream.tool.auditlog.DefaultLogDefinitionRegistry;
+import org.dream.tool.auditlog.matedata.LogDefinition;
+
 import java.lang.reflect.Method;
 import java.util.List;
 
@@ -30,7 +33,7 @@ public interface LogDefinitionRegistry {
 	 * @param method 被记录的方法
 	 * @return 被记录方法的log定义
 	 */
-	LogDefinition getLogDefinition(Method method);
+	LogDefinition getLogDefinition(Class clazz , Method method );
 
 
 

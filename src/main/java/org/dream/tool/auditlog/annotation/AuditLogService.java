@@ -3,6 +3,7 @@ package org.dream.tool.auditlog.annotation;
 
 import org.dream.tool.auditlog.LogProducer;
 import org.dream.tool.auditlog.Pipeline;
+import org.dream.tool.auditlog.matedata.Advice;
 import org.dream.tool.auditlog.processor.ProcessorStrategy;
 
 import java.lang.annotation.*;
@@ -12,7 +13,7 @@ import java.lang.annotation.*;
  * @author hukangning
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target({ElementType.TYPE , ElementType.ANNOTATION_TYPE})
 @Documented
 public @interface AuditLogService {
 
@@ -24,12 +25,20 @@ public @interface AuditLogService {
 
 
 	/**
+	 * 拦截方式
+	 * @return
+	 */
+	Advice advice() default Advice.AFTER;
+
+
+	/**
 	 * 处理策略
 	 * @see  ProcessorStrategy
 	 * @see  org.dream.tool.auditlog.processor.Processor
 	 * @return
 	 */
 	String strategy() default ProcessorStrategy.EXPRESSION_NAME;
+
 
 	/**
 	 * 日志生成器

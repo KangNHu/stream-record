@@ -4,6 +4,8 @@ import java.lang.annotation.*;
 
 /**
 * 参数标注器
+ * 和{@link Param} 只有一个生效 其中 {@link Param} > {@link Search}
+ * @see Search
 * @author : KangNing Hu
 */
 @Retention(RetentionPolicy.RUNTIME)

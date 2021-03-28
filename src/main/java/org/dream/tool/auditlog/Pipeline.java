@@ -1,5 +1,10 @@
 package org.dream.tool.auditlog;
 
+import org.dream.tool.auditlog.matedata.AuditLogInfo;
+import org.dream.tool.auditlog.matedata.AuditLogInfoWrapper;
+
+import java.util.List;
+
 /**
 *   
 * @author : KangNing Hu
@@ -7,5 +12,5 @@ package org.dream.tool.auditlog;
 @FunctionalInterface
 public interface Pipeline {
 
-	void doConsume(Object log);
+	void doConsume(AuditLogInfoWrapper auditLogInfoWrapper);
 }

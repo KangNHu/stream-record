@@ -1,4 +1,4 @@
-package org.dream.tool.auditlog;
+package org.dream.tool.auditlog.matedata;
 
 /**
 * 通知类型  

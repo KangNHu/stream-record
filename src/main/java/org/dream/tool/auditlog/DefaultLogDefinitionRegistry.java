@@ -1,10 +1,10 @@
 package org.dream.tool.auditlog;
 
-import org.dream.tool.auditlog.processor.ProcessorStrategyProxy;
+import org.dream.tool.auditlog.matedata.CacheKey;
+import org.dream.tool.auditlog.matedata.LogDefinition;
 
 import java.lang.reflect.Method;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
 * log定义的默认实现
@@ -17,14 +17,11 @@ import java.util.stream.Collectors;
 public class DefaultLogDefinitionRegistry extends ReadWriteLock implements LogDefinitionRegistry {
 
 
-
 	/**
-	 * 方法全名称:参数类型名称 -> log定义
+	 * key -> log定义
 	 * @see CacheKey
 	 */
 	private Map<CacheKey , LogDefinition> logDefinitionMap = new HashMap<CacheKey, LogDefinition>(16);
-
-
 
 	/**
 	 * 一个有顺序的log定义key列表
@@ -34,7 +31,7 @@ public class DefaultLogDefinitionRegistry extends ReadWriteLock implements LogDe
 
 	public void register(LogDefinition logDefinition) {
 		writeExecute(() -> {
-			CacheKey cacheKey = new CacheKey(logDefinition.getMethod());
+			CacheKey cacheKey = new CacheKey(logDefinition.getMethod() , logDefinition.getLogProducerClass());
 			logDefinitionMap.put( cacheKey, logDefinition);
 			cacheKeys.add(cacheKey);
 			return null;
@@ -51,38 +48,10 @@ public class DefaultLogDefinitionRegistry extends ReadWriteLock implements LogDe
 		});
 	}
 
-	public LogDefinition getLogDefinition(Method method) {
-		return readExecute(() -> logDefinitionMap.get(new CacheKey(method)));
+	public LogDefinition getLogDefinition(Class clazz , Method method ) {
+		return readExecute(() -> logDefinitionMap.get(new CacheKey(method , clazz)));
 	}
 
-	/**
-	 * 缓存key
-	 */
-	class CacheKey{
-		private String methodName;
-
-		private String paramTypes;
-
-
-		public CacheKey(Method method){
-			this.methodName = method.toGenericString();
-			this.paramTypes = Arrays.asList(method.getParameterTypes()).stream().map(Class::getTypeName).collect(Collectors.joining());
-		}
-
-		@Override
-		public boolean equals(Object o) {
-			if (this == o) return true;
-			if (o == null || getClass() != o.getClass()) return false;
-			CacheKey cacheKey = (CacheKey) o;
-			return Objects.equals(methodName, cacheKey.methodName) &&
-					Objects.equals(paramTypes, cacheKey.paramTypes);
-		}
-
-		@Override
-		public int hashCode() {
-			return Objects.hash(methodName, paramTypes);
-		}
-	}
 
 
 }
