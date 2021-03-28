@@ -98,7 +98,6 @@ public class AuditLogContext implements ComponentRegistry, MethodInterceptor, Co
 	public void  addLogAuditPostProcessor(LogAuditPostProcessor logAuditPostProcessor){
 		this.logAuditPostProcessors.add(logAuditPostProcessor);
 	}
-
 	/**
 	 * 设置模板解析器
 	 * @param templateResolve
@@ -167,7 +166,6 @@ public class AuditLogContext implements ComponentRegistry, MethodInterceptor, Co
 	public LogDefinition getLogDefinition(Class clazz, Method method) {
 		return logDefinitionRegistry.getLogDefinition(clazz , method);
 	}
-
 
 	@Override
 	public Object createComponent(Class clazz) {
