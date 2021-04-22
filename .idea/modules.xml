@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/audit-log.iml" filepath="$PROJECT_DIR$/.idea/audit-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-log-configuration/boot-log-configuration.iml" filepath="$PROJECT_DIR$/boot-log-configuration/boot-log-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-log-core/boot-log-core.iml" filepath="$PROJECT_DIR$/boot-log-core/boot-log-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-log-examples/boot-log-examples.iml" filepath="$PROJECT_DIR$/boot-log-examples/boot-log-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-boot-log.iml" filepath="$PROJECT_DIR$/easy-boot-log.iml" />
     </modules>
   </component>
 </project>

@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.dream.tool</groupId>
-    <artifactId>audit-log</artifactId>
+    <groupId>org.easy.boot</groupId>
+    <artifactId>boot-log</artifactId>
     <packaging>pom</packaging>
     <version>${reversion}</version>
     <modules>
-        <module>core</module>
-        <module>examples</module>
-        <module>configuration</module>
+        <module>boot-log-core</module>
+        <module>boot-log-examples</module>
+        <module>boot-log-configuration</module>
     </modules>
 
     <properties>

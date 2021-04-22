@@ -2,123 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3222527c-072d-4ddd-b2ee-1ce6f48a47f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/configuration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/EnableAuditLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/LogDefinitionAutoRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/SpringComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultLogDefinitionRegistryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultParamParseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/expression/SimpleExpressionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/DefaultLogProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/LogProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/Pipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogInfoWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/support/LogPointcutAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/AttributeAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/DefaultParamParseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/LogContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.AttributeAccessTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.AuditLogContextTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.DefaultLogDefinitionRegistryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.DefaultParamParseTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.matedata.LogDefinitionBuilderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.matedata.ParamNodeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.AttributeAccessTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.AuditLogContextTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.DefaultLogDefinitionRegistryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.DefaultParamParseTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.matedata.LogDefinitionBuilderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-core/target/surefire-reports/org.dream.tool.auditlog.core.matedata.ParamNodeTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-log-examples/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-boot-log.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/audit-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/audit-log.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/configuration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/boot-log-configuration.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/LogAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/EnableAuditLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/EnableLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/LogDefinitionAutoRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/LogDefinitionAutoRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/SpringComponentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/SpringComponentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/boot-log-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AttributeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/AttributeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AuditLogContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/LogContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ComponentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ComponentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ComponentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ComponentRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/CurrentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/CurrentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultLogDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/DefaultLogDefinitionRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultLogProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultParamParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/DefaultParamParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/InterceptMethodWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/InterceptMethodWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/LogDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/LogDefinitionRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/LogProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ParamParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ParamParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/Pipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/Param.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Param.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/RouteTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/RouteTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/Advice.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/Advice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/AuditLogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/AuditLogInfoWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultAuditLogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/DefaultLogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultLogDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/DefaultLogDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinitionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogDefinitionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/ParamNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/ParamNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ExpressionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/ExpressionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/LogAuditPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/LogPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/MethodRouteProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/MethodRouteProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ProcessorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/ProcessorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ProcessorStrategyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/ProcessorStrategyProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/SpElTemplateResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/SpElTemplateResolve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/TemplateResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/TemplateResolve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/spring/MethodBasedEvaluationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/spring/MethodBasedEvaluationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/support/AuditLogPointcut.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/support/LogPointcut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/support/AuditLogPointcutAdvisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/MethodUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/utils/MethodUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/ProxyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/utils/ProxyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/SpringELUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/utils/SpringELUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultLogDefinitionRegistryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/DefaultLogDefinitionRegistryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultParamParseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/LogDefinitionBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/matedata/LogDefinitionBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/ParamNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/matedata/ParamNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/pojo/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/pojo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.test.DefaultLogDefinitionRegistryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.test.DefaultParamParseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.test.LogDefinitionBuilderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-org.dream.tool.auditlog.core.test.ParamNodeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/org.dream.tool.auditlog.core.test.DefaultLogDefinitionRegistryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/org.dream.tool.auditlog.core.test.DefaultParamParseTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/org.dream.tool.auditlog.core.test.LogDefinitionBuilderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/org.dream.tool.auditlog.core.test.ParamNodeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/boot-log-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/expression/SimpleExpressionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/expression/SimpleExpressionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/boot-log-examples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/AttributeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AttributeAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/AuditLogContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AuditLogContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/ComponentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ComponentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/ComponentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ComponentRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/CurrentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/CurrentContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/DefaultLogDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultLogDefinitionRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/DefaultLogProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultLogProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/DefaultParamParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultParamParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/InterceptMethodWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/InterceptMethodWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/LogDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/LogDefinitionRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/LogProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/LogProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/ParamParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ParamParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/Pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/Pipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/AuditLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/AuditLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/Param.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/Param.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/RouteTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/RouteTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/Advice.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/Advice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/AuditLogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/AuditLogInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/AuditLogInfoWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/AuditLogInfoWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/CacheKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/DefaultAuditLogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultAuditLogInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/DefaultLogDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultLogDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/LogDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/LogDefinitionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinitionBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/ParamNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/ParamNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/ExpressionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ExpressionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/LogAuditPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/LogAuditPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/MethodRouteProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/MethodRouteProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/ProcessorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ProcessorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/ProcessorStrategyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ProcessorStrategyProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/SpElTemplateResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/SpElTemplateResolve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/TemplateResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/TemplateResolve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/spring/MethodBasedEvaluationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/spring/MethodBasedEvaluationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/support/AuditLogPointcut.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/support/AuditLogPointcut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/support/AuditLogPointcutAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/support/AuditLogPointcutAdvisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/utils/MethodUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/MethodUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/utils/ProxyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/ProxyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/utils/SpringELUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/utils/SpringELUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/LogDefinitionBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/LogDefinitionBuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/ParamNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/ParamNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/model/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/examples/target/" />
     <ignored path="$PROJECT_DIR$/configuration/target/" />
+    <ignored path="$PROJECT_DIR$/boot-log-examples/target/" />
+    <ignored path="$PROJECT_DIR$/boot-log-configuration/target/" />
+    <ignored path="$PROJECT_DIR$/boot-log-core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,108 +143,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="75" />
+    <option name="myElementSize" value="280" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultParamParse.java">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/LogContextTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultParamParseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultLogDefinitionRegistryTest.java">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/InterceptMethodWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="120">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/DefaultLogDefinitionRegistryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
               <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/CurrentContext.java">
+        <entry file="file://$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/expression/SimpleExpressionExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="50" column="120" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="150" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/InterceptMethodWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/ParamNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="749" selection-start-line="749" selection-end-line="749" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AuditLogContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="222" column="22" selection-start-line="222" selection-start-column="22" selection-end-line="222" selection-end-column="22" />
+            <state relative-caret-position="-203">
+              <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
-                <element signature="e#3128#3129#0" expanded="true" />
-                <element signature="e#3393#3394#0" expanded="true" />
-                <element signature="e#3440#3441#0" expanded="true" />
-                <element signature="e#3856#3857#0" expanded="true" />
-                <element signature="e#3908#3909#0" expanded="true" />
+                <element signature="e#1272#1692#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ParamParse.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27-sources.jar!/org/apache/catalina/Pipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogInfoWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogDefinitionBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-log-examples/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/support/LogPointcutAdvisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -260,23 +270,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLog.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Log.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/utils/MethodUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/RouteMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/annotation/RouteTarget.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/ProcessorStrategy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/LogDefinitionBuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/Company.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/model/Address.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/dream/tool/auditlog/test/ParamNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/LogDefinitionBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/processor/MethodRouteProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/LogAuditContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/support/AuditLogPointcut.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/ParamParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/AttributeAccess.java" />
@@ -289,17 +287,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/matedata/CacheKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/dream/tool/auditlog/DefaultLogDefinitionRegistry.java" />
         <option value="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditlogAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/configuration/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultLogDefinition.java" />
         <option value="$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/EnableAuditLog.java" />
         <option value="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/expression/User.java" />
         <option value="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/User.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AttributeAccess.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinitionBuilder.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/LogDefinitionBuilderTest.java" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/examples/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultLogDefinitionRegistryTest.java" />
         <option value="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/UserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AuditLogContext.java" />
@@ -315,7 +308,24 @@
         <option value="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/expression/SimpleExpressionExample.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultParamParse.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/ParamNode.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/service/UserService.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/InterceptMethodWrapper.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/LogDefinitionBuilder.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultParamParseTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/DefaultParamParseTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/AttributeAccessTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/AttributeAccessTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/AuditLogContextTest.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/examples/pom.xml" />
+        <option value="$PROJECT_DIR$/configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/core/support/LogPointcutAdvisor.java" />
+        <option value="$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/core/matedata/LogDefinitionBuilder.java" />
+        <option value="$PROJECT_DIR$/boot-log-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/examples/expression/SimpleExpressionExample.java" />
+        <option value="$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/expression/SimpleExpressionExample.java" />
       </list>
     </option>
   </component>
@@ -332,73 +342,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="audit-log" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="boot-log" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="audit-log" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="boot-log-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="configuration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="configuration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="boot-log-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="boot-log-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.dream.tool:configuration:1.0.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.dream.tool:configuration:1.0.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework:spring-context:5.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter-aop:2.2.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -414,531 +373,359 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esay-boot-log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esay-boot-log" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-log-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audit-log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="auditlog" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-web-2.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-web-2.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audit-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.2.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.111234725" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.dream.tool.auditlog.core" />
+      <recent name="org.dream.tool.auditlog.core.matedata" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test" />
       <recent name="$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -960,87 +747,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleExpressionExample">
-    <configuration name="SimpleExpressionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dream.tool.auditlog.log.examples.expression.SimpleExpressionExample" />
-      <module name="examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dream.tool.auditlog.log.examples.expression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.All in core (1)">
+    <configuration name="All in core (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-log-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultLogDefinitionRegistryTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core" />
+    <configuration name="All in core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-log-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultParamParseTest.parse (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-log-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dream.tool.auditlog.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dream.tool.auditlog.core" />
+      <option name="MAIN_CLASS_NAME" value="org.dream.tool.auditlog.core.DefaultParamParseTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.dream.tool.auditlog.core.matedata.* and 6 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-log-core" />
       <option name="TEST_OBJECT" value="pattern" />
       <patterns>
-        <pattern testClass="org.dream.tool.auditlog.core.test.DefaultLogDefinitionRegistryTest" />
-        <pattern testClass="org.dream.tool.auditlog.core.test.LogDefinitionBuilderTest" />
-        <pattern testClass="org.dream.tool.auditlog.core.test.ParamNodeTest" />
+        <pattern testClass="org.dream.tool.auditlog.core.matedata.*" />
+        <pattern testClass="org.dream.tool.auditlog.core.model.*" />
+        <pattern testClass="org.dream.tool.auditlog.core.service.*" />
+        <pattern testClass="org.dream.tool.auditlog.core.AttributeAccessTest" />
+        <pattern testClass="org.dream.tool.auditlog.core.AuditLogContextTest" />
+        <pattern testClass="org.dream.tool.auditlog.core.DefaultLogDefinitionRegistryTest" />
+        <pattern testClass="org.dream.tool.auditlog.core.DefaultParamParseTest" />
       </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultLogDefinitionRegistryTest.registerAndGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="audit-log" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dream.tool.auditlog.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dream.tool.auditlog.test" />
-      <option name="MAIN_CLASS_NAME" value="org.dream.tool.auditlog.test.DefaultLogDefinitionRegistryTest" />
-      <option name="METHOD_NAME" value="registerAndGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dream.tool.auditlog.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dream.tool.auditlog.core.test" />
-      <option name="MAIN_CLASS_NAME" value="org.dream.tool.auditlog.core.test.LogDefinitionBuilderTest" />
-      <option name="METHOD_NAME" value="getGenericLogDefinitionRouteMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParamNodeTest.parseParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="audit-log" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dream.tool.auditlog.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dream.tool.auditlog.test" />
-      <option name="MAIN_CLASS_NAME" value="org.dream.tool.auditlog.test.ParamNodeTest" />
-      <option name="METHOD_NAME" value="parseParams" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="* and 2 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="boot-log-core" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="org.dream.tool.auditlog.core.matedata.*" />
+        <pattern testClass="org.dream.tool.auditlog.core.model.*" />
+        <pattern testClass="org.dream.tool.auditlog.core.service.*" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleExpressionExample" />
-        <item itemvalue="JUnit.DefaultLogDefinitionRegistryTest and 2 more" />
-        <item itemvalue="JUnit.LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" />
-        <item itemvalue="JUnit.DefaultLogDefinitionRegistryTest.registerAndGet" />
-        <item itemvalue="JUnit.ParamNodeTest.parseParams" />
+        <item itemvalue="JUnit.All in core (1)" />
+        <item itemvalue="JUnit.All in core" />
+        <item itemvalue="JUnit.org.dream.tool.auditlog.core.matedata.* and 6 more" />
+        <item itemvalue="TestNG.* and 2 more" />
+        <item itemvalue="JUnit.DefaultParamParseTest.parse (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1059,57 +835,59 @@
       <workItem from="1617437397316" duration="2000" />
       <workItem from="1617707330362" duration="2418000" />
       <workItem from="1618903759562" duration="14455000" />
+      <workItem from="1618989755590" duration="1347000" />
+      <workItem from="1618991112276" duration="1538000" />
+      <workItem from="1619082478691" duration="1330000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 52m 13s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 51m 08s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 52m 23s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 52m 44s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 52m 41s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 53m 38s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 53m 50s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 53m 52s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 56m 58s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 54m 29s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 57m 03s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 54m 36s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 57m 21s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="DefaultParamParseTest_parse_(1) - 2021.04.21 at 15h 54m 50s.xml">
+      <configuration name="DefaultParamParseTest.parse (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 57m 25s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="__and_2_more - 2021.04.21 at 16h 10m 21s.xml">
+      <configuration name="* and 2 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogDefinitionBuilderTest_getGenericLogDefinitionRouteMethod_(1) - 2021.04.20 at 17h 57m 38s.xml">
-      <configuration name="LogDefinitionBuilderTest.getGenericLogDefinitionRouteMethod (1)" configurationId="JUnit" />
+    <history-entry file="org_dream_tool_auditlog_core_matedata___and_6_more - 2021.04.21 at 16h 10m 38s.xml">
+      <configuration name="org.dream.tool.auditlog.core.matedata.* and 6 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultLogDefinitionRegistryTest_and_2_more - 2021.04.20 at 17h 57m 49s.xml">
-      <configuration name="DefaultLogDefinitionRegistryTest and 2 more" configurationId="JUnit" />
+    <history-entry file="All_in_core_(1) - 2021.04.21 at 16h 11m 38s.xml">
+      <configuration name="All in core (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79859000" />
+    <option name="totallyTimeSpent" value="84074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3974359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31734693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38979593" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.49387756" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46938777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3867347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1117,18 +895,18 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38367346" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38367346" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.41428572" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50167227" side_tool="true" weight="0.6123321" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49832776" visible="true" weight="0.17704518" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.24693878" visible="true" weight="0.12759463" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info active="true" anchor="right" id="Coverage" order="8" sideWeight="0.75306123" side_tool="true" visible="true" weight="0.53357756" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1136,6 +914,10 @@
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="UserServiceImpl.class" />
+        <watch expression="currentContext.getLogDefinition()" />
+      </configuration>
       <configuration name="Application">
         <watch expression="field.isAnnotationPresent(Param.class) " />
         <watch expression="!field.isAnnotationPresent(Search.class)" />
@@ -1146,10 +928,24 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/esay_boot_log$All_in_core.ic" NAME="All in core Coverage Results" MODIFIED="1618992663499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/esay_boot_log$All_in_core__1_.ic" NAME="All in core (1) Coverage Results" MODIFIED="1618992696825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/esay_boot_log$__and_2_more.ic" NAME="* and 2 more Coverage Results" MODIFIED="1618992619232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/audit_log$DefaultLogDefinitionRegistryTest_and_2_more.ic" NAME="DefaultLogDefinitionRegistryTest and 2 more Coverage Results" MODIFIED="1618912667142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/esay_boot_log$org_dream_tool_auditlog_core_matedata___and_6_more.ic" NAME="org.dream.tool.auditlog.core.matedata.* and 6 more Coverage Results" MODIFIED="1618992636833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>methods[0].getName();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>UserServiceImpl.class.getm</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>beanFactory.getBean(LogDefinitionAutoRegistry.class)</expression-string>
         <language-id>JAVA</language-id>
@@ -1169,202 +965,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.4.5/spring-boot-autoconfigure-2.4.5.jar!/org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#2876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/support/StaticApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="199" column="28" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.4.5/spring-boot-autoconfigure-2.4.5-sources.jar!/org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#3316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.0.RELEASE/spring-boot-2.2.0.RELEASE-sources.jar!/org/springframework/boot/web/reactive/context/AnnotationConfigReactiveWebApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.0.RELEASE/spring-boot-2.2.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1214" column="15" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#48523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="721" column="51" selection-start-line="721" selection-start-column="51" selection-end-line="721" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#52719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/annotation/AnnotationsScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="521" column="19" selection-start-line="521" selection-start-column="19" selection-end-line="521" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/annotation/AnnotationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="132" column="25" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="458" column="45" selection-start-line="458" selection-start-column="29" selection-end-line="458" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#30731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="355" selection-start-line="355" selection-end-line="355" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/annotation/AliasFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ExpressionProcessor.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/ExpressionProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/DefaultLogDefinition.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/DefaultLogDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
@@ -1376,14 +984,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ComponentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/EnableAuditLog.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/EnableLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -1393,7 +994,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/AuditLog.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
@@ -1403,28 +1004,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/support/AuditLogPointcutAdvisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-          <folding>
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2231#2232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/LogDefinitionAutoRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="21" column="118" selection-start-line="21" selection-start-column="118" selection-end-line="21" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/SpringComponentFactory.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/SpringComponentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
@@ -1434,72 +1014,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/AuditLogInfoWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/IdGenerator.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/IdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/LogProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultLogProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/processor/ProcessorStrategyProxy.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/processor/ProcessorStrategyProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/expression/SimpleExpressionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1747#1917#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/annotation/Search.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/annotation/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/dream/tool/auditlog/log/examples/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
@@ -1509,85 +1052,333 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/AuditLogContext.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/LogAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="222" column="22" selection-start-line="222" selection-start-column="22" selection-end-line="222" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <element signature="e#3128#3129#0" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3440#3441#0" expanded="true" />
-            <element signature="e#3856#3857#0" expanded="true" />
-            <element signature="e#3908#3909#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/ParamParse.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ParamParse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/org/dream/tool/auditlog/configuration/AuditLogAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/matedata/ParamNodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="135">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+          <folding>
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3252#3253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        <state relative-caret-position="9660">
+          <caret line="724" column="46" selection-start-line="724" selection-start-column="25" selection-end-line="724" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/matedata/ParamNode.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/aopalliance/intercept/MethodInvocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/InterceptMethodWrapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/springframework/aop/ProxyMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/src/main/java/org/easy/boot/log/configuration/LogDefinitionAutoRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/CurrentContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/CurrentContext.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="50" column="120" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="150" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/dream/tool/auditlog/core/DefaultParamParse.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/Pipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultLogDefinitionRegistryTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/DefaultParamParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/AttributeAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/DefaultParamParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" column="138" selection-start-line="47" selection-start-column="138" selection-end-line="47" selection-end-column="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/AttributeAccessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/DefaultLogProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/LogContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3093#3094#0" expanded="true" />
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3393#3394#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3856#3857#0" expanded="true" />
+            <element signature="e#3908#3909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/LogProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/ComponentRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/ParamNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.en.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-configuration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/support/LogPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogDefinitionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/InterceptMethodWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/LogContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/test/java/org/easy/boot/log/log/core/DefaultLogDefinitionRegistryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/dream/tool/auditlog/core/test/DefaultParamParseTest.java">
+    <entry file="file://$PROJECT_DIR$/boot-log-examples/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="413">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-core/src/main/java/org/easy/boot/log/log/core/matedata/LogInfoWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27-sources.jar!/org/apache/catalina/Pipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-log-examples/src/main/java/org/easy/boot/log/log/examples/expression/SimpleExpressionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1272#1692#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1641,7 +1432,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>audit-log</last-edited>
+          <last-edited>boot-log-core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1666,7 +1457,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-beans:5.1.4.RELEASE</last-edited>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
