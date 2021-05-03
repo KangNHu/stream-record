@@ -1,6 +1,0 @@
-org/dream/tool/auditlog/configuration/LogDefinitionAutoRegistry.class
-org/dream/tool/auditlog/configuration/AuditLogAutoConfiguration.class
-org/dream/tool/auditlog/configuration/EnableAuditLog.class
-org/dream/tool/auditlog/configuration/AuditLogService.class
-org/dream/tool/auditlog/configuration/SpringComponentFactory.class
-org/dream/tool/auditlog/configuration/IdGenerator.class
