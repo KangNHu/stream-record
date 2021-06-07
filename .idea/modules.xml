@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/boot-log-configuration/boot-log-configuration.iml" filepath="$PROJECT_DIR$/boot-log-configuration/boot-log-configuration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-log-core/boot-log-core.iml" filepath="$PROJECT_DIR$/boot-log-core/boot-log-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-log-examples/boot-log-examples.iml" filepath="$PROJECT_DIR$/boot-log-examples/boot-log-examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easy-boot-log.iml" filepath="$PROJECT_DIR$/easy-boot-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record.iml" filepath="$PROJECT_DIR$/stream-record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-core/stream-record-core.iml" filepath="$PROJECT_DIR$/stream-record-core/stream-record-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" filepath="$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-springboot/stream-record-springboot.iml" filepath="$PROJECT_DIR$/stream-record-springboot/stream-record-springboot.iml" />
     </modules>
   </component>
 </project>

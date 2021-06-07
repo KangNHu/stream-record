@@ -2,20 +2,21 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.dream.tool</groupId>
-  <artifactId>audit-log</artifactId>
+  <groupId>org.codingeasy</groupId>
+  <artifactId>stream-record</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>core</module>
-    <module>examples</module>
-    <module>configuration</module>
+    <module>stream-record-core</module>
+    <module>stream-record-examples</module>
+    <module>stream-record-springboot</module>
   </modules>
   <properties>
     <maven.source.version>3.2.1</maven.source.version>
     <maven.compiler.target>8</maven.compiler.target>
     <maven.compiler.version>3.8.1</maven.compiler.version>
     <commons-lang3.version>3.9</commons-lang3.version>
+    <spring-boot.dependencies>2.2.0.RELEASE</spring-boot.dependencies>
     <maven.deploy.version>2.8.2</maven.deploy.version>
     <reversion>1.0.0</reversion>
     <maven.compiler.source>8</maven.compiler.source>
@@ -25,6 +26,16 @@
   </properties>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>${spring-boot.dependencies}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-aop</artifactId>
+        <version>${spring-boot.dependencies}</version>
+      </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>

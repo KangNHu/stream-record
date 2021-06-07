@@ -4,20 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.easy.boot</groupId>
-    <artifactId>boot-log</artifactId>
+    <groupId>org.codingeasy</groupId>
+    <artifactId>stream-record</artifactId>
     <packaging>pom</packaging>
     <version>${reversion}</version>
     <modules>
-        <module>boot-log-core</module>
-        <module>boot-log-examples</module>
-        <module>boot-log-configuration</module>
+        <module>stream-record-core</module>
+        <module>stream-record-examples</module>
+        <module>stream-record-springboot</module>
     </modules>
 
     <properties>
         <spring.version>5.2.0.RELEASE</spring.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <spring-boot-autoconfigure>2.2.0.RELEASE</spring-boot-autoconfigure>
+        <spring-boot.dependencies>2.2.0.RELEASE</spring-boot.dependencies><spring-boot.dependencies>2.2.0.RELEASE</spring-boot.dependencies>
         <reversion>1.0.0</reversion>
         <!-- Maven Plugins 版本 -->
         <maven.compiler.version>3.8.1</maven.compiler.version>
@@ -32,6 +33,16 @@
         <dependencies>
 
             <!--第三方依赖库-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.dependencies}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring-boot.dependencies}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>

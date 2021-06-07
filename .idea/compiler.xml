@@ -2,19 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="audit-log" target="8" />
-      <module name="boot-log-configuration" target="8" />
-      <module name="boot-log-core" target="8" />
-      <module name="boot-log-examples" target="8" />
-      <module name="easy-boot-log" target="8" />
+      <module name="stream-record" target="8" />
+      <module name="stream-record-core" target="8" />
+      <module name="stream-record-examples" target="8" />
+      <module name="stream-record-springboot" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="audit-log" options="" />
-      <module name="boot-log-configuration" options="-proc:none -parameters" />
-      <module name="boot-log-core" options="-proc:none -parameters" />
-      <module name="boot-log-examples" options="-proc:none -parameters" />
+      <module name="stream-record-core" options="-proc:none -parameters" />
+      <module name="stream-record-examples" options="-proc:none -parameters" />
+      <module name="stream-record-springboot" options="-proc:none -parameters" />
     </option>
   </component>
 </project>

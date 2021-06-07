@@ -1,0 +1,4 @@
+org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.class
+org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.class
+org/codingeasy/streamrecord/springboot/configuration/SpringComponentFactory.class
+org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.class

@@ -1,0 +1,12 @@
+org/codingeasy/streamrecord/core/service/impl/UserServiceImpl.class
+org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.class
+org/codingeasy/streamrecord/core/RecordContextTest.class
+org/codingeasy/streamrecord/core/model/User.class
+org/codingeasy/streamrecord/core/matedata/ParamNodeTest.class
+org/codingeasy/streamrecord/core/service/UserService.class
+org/codingeasy/streamrecord/core/DefaultParamParseTest.class
+org/codingeasy/streamrecord/core/AttributeAccessTest.class
+org/codingeasy/streamrecord/core/model/Company.class
+org/codingeasy/streamrecord/core/DefaultParamParseTest$TestReflectiveMethodInvocation.class
+org/codingeasy/streamrecord/core/DefaultRecordDefinitionRegistryTest.class
+org/codingeasy/streamrecord/core/model/Address.class
