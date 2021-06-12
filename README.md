@@ -1,4 +1,4 @@
-# audit-record
+# stream-record
 
 #### 介绍
 ##### 一个流式风格的记录器，它提供了如下能力：
