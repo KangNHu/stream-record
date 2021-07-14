@@ -7,15 +7,18 @@ import org.codingeasy.streamrecord.core.annotation.Record;
 import org.codingeasy.streamrecord.core.matedata.Advice;
 import org.codingeasy.streamrecord.core.matedata.RecordInfoWrapper;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.concurrent.Executor;
-
 /**
 * 执行策略代理  
 * @author : KangNing Hu
 */
 public class ProcessorStrategyProxy extends HashMap<String, Processor> {
+
+	private Logger logger = LoggerFactory.getLogger(ProcessorStrategyProxy.class);
 
 	/**
 	 * 默认的全局记录生成器
@@ -44,29 +47,40 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 	}
 
 	public Object process(CurrentContext currentContext) throws Throwable {
-		RecordDefinition recordDefinition = currentContext.getRecordDefinition();
-		Advice advice = recordDefinition.getAdvice();
-		//前置
-		if (advice == Advice.BEFORE){
-			routeProcess(currentContext , recordDefinition.isAsync());
-			currentContext.invoke();
-		}
-		//后置
-		else if (advice == Advice.AFTER){
-			currentContext.invoke();
-			routeProcess(currentContext , recordDefinition.isAsync());
-		}
-		//异常
-		else {
-			try {
-				currentContext.invoke();
-			}catch (Throwable throwable){
-				routeProcess(currentContext , recordDefinition.isAsync());
+		Object obj = null;
+		try {
+			RecordDefinition recordDefinition = currentContext.getRecordDefinition();
+			Advice advice = recordDefinition.getAdvice();
+			//前置
+			if (advice == Advice.BEFORE) {
+				//不影响代码目标正常执行
+				try {
+					routeProcess(currentContext, recordDefinition.isAsync());
+				}finally {
+					obj = currentContext.invoke();
+				}
+			}
+			//后置
+			else if (advice == Advice.AFTER) {
+				obj = currentContext.invoke();
+				routeProcess(currentContext, recordDefinition.isAsync());
+			}
+			//异常
+			else {
+				try {
+					obj = currentContext.invoke();
+				} catch (Throwable throwable) {
+					routeProcess(currentContext, recordDefinition.isAsync());
+					throw throwable;
+				}
+			}
+		}catch (Exception e){
+			logger.error("执行流处理失败" , e);
+			if (obj == null){
+				throw e;
 			}
 		}
-
-		//通知
-		return null;
+		return obj;
 	}
 
 	/**

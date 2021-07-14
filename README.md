@@ -1,19 +1,81 @@
-# audit-record
+# Stream-record
 
 #### 介绍
-一个审计日志组件
+一个流式风格的记录器，它提供了如下能力：
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 支持spel表达式和注解的方式进行方法调用记录
+- 支持方法路由的方式进行方法调用记录
+- 支持全局和局部记录数的统一处理
+- 支持同步和异步的方法调用记录
+- 对spring boot进行了无缝的集成
+- 支持用户自定义扩展
 
 #### 使用说明
+
+##### 快速开始
+
+**启动类**
+
+```java
+@SpringBootApplication
+@EnableStreamRecord
+public class Application{
+ 
+  public static void main(String[] args) throws InterruptedException {
+		SpringApplication.run(Application.class, args)
+	}
+}
+```
+
+**定义全局记录生成器**
+
+```java
+@Bean
+public RecordProducer producer(){
+  return new DefaultRecordProducer() {
+    @Override
+    public RecordInfoWrapper doProduce(CurrentContext currentContext) {
+      System.out.println("调用自定义记录生成器")
+      return super.doProduce(currentContext);
+    }
+  };
+	}
+
+```
+
+**定义全局记录管道**
+
+```java
+@Bean
+	public Pipeline pipeline(){
+		return auditLogInfoWrapper -> {
+			//如果是多个结果
+			if (auditLogInfoWrapper.isMultiple()){
+				System.out.printf("管道中已有多个结果:%s" , JSONObject.toJSONString(auditLogInfoWrapper.getRecordInfos()));
+			}
+			//如果只有一个结果
+			else {
+				System.out.printf("管道中已有多个结果:%s" , JSONObject.toJSONString(auditLogInfoWrapper.getRecordInfo()));
+			}
+      //对记录结果进行处理，如存到 db 或发到mq
+      ...
+		};
+	}
+```
+
+**在自己的业务方法上添加注解**
+
+```java
+@Record("'这是一个简单的日志记录，用户的名称是：' + #user.name")
+@Override
+public void simple(@Search User user) {
+	
+}
+```
+
+##### 注解说明
+
+
 
 1.  xxxx
 2.  xxxx

@@ -5,14 +5,14 @@ import org.codingeasy.streamrecord.core.annotation.RecordService;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinitionBuilder;
 import org.codingeasy.streamrecord.core.support.RecordPointcutAdvisor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * 日志定义自动注册器
@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  */
 public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implements InstantiationAwareBeanPostProcessor  {
 
-	private Logger logger = Logger.getLogger(RecordDefinitionAutoRegistry.class.getName());
+	private Logger logger = LoggerFactory.getLogger(RecordDefinitionAutoRegistry.class.getName());
 
 
 	@Override
@@ -41,7 +41,7 @@ public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implemen
 			ReflectionUtils.doWithMethods(beanClass, method -> {
 				if (method.isAnnotationPresent(Record.class)) {
 					RecordDefinition recordDefinition = buildRecordDefinition(finalTargetClass, method);
-					logger.log(Level.INFO, String.format("注册记录定义 -> %s", recordDefinition.toString()));
+					logger.info("注册记录定义 -> {}", recordDefinition.toString());
 					this.register(recordDefinition);
 				}
 			});

@@ -1,6 +1,8 @@
 package org.codingeasy.streamrecord.core.utils;
 
 import org.codingeasy.streamrecord.core.ReadWriteLock;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.expression.EvaluationException;
 import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
@@ -11,8 +13,6 @@ import org.springframework.util.StringUtils;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * spring el 工具类
@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  */
 public class SpringELUtils {
 
-    private static final Logger logger = Logger.getLogger(StringUtils.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(StringUtils.class.getName());
 
 
     private static ReadWriteLock readWriteLock = new ReadWriteLock();
@@ -50,7 +50,7 @@ public class SpringELUtils {
         try {
             return expression.getValue(context, String.class);
         }catch (EvaluationException e){
-            logger.log(Level.WARNING , "可能是错误的表达式：" + spel);
+            logger.warn( "可能是错误的表达式：{}" , spel);
             return spel;
         }
     }

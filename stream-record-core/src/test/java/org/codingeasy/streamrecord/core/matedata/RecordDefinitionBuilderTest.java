@@ -120,7 +120,7 @@ public class RecordDefinitionBuilderTest {
 	}
 
 	/**
-	 * 断言log定义的基本信息
+	 * 断言记录定义的基本信息
 	 * @param genericRecordDefinition
 	 * @param method
 	 * @param processorStrategy

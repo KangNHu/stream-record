@@ -123,6 +123,7 @@ public class RecordDefinitionBuilder {
 					if (!(paramType.isAssignableFrom(InterceptMethodWrapper.class)
 							|| paramType.isAssignableFrom(AttributeAccess.class))) {
 						paramTypes = classes;
+						break;
 					}
 				}
 				/**

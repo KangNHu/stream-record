@@ -78,6 +78,7 @@ public class SimpleExpressionExample {
 		userService.simple(user);
 		Thread.sleep(10000L);
 		configurableApplicationContext.close();
+
 	}
 
 
