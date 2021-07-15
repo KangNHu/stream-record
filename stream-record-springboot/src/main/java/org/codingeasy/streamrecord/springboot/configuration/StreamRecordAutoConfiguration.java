@@ -11,7 +11,10 @@ import org.codingeasy.streamrecord.core.processor.TemplateResolve;
 import org.codingeasy.streamrecord.core.support.RecordPointcutAdvisor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
@@ -50,42 +53,6 @@ public class StreamRecordAutoConfiguration {
 		return new SpringComponentFactory();
 	}
 
-	@Bean
-	@ConditionalOnMissingBean(RecordPointcutAdvisor.class)
-	public RecordDefinitionAutoRegistry recordPointcutAdvisor(ComponentFactory componentFactory){
-		RecordDefinitionAutoRegistry recordDefinitionAutoRegistry = new RecordDefinitionAutoRegistry();
-		//执行策略 没有则不设置
-		if (!CollectionUtils.isEmpty(processorStrategies)){
-			processorStrategies.forEach(recordDefinitionAutoRegistry::addProcessorStrategy);
-		}
-		//后置处理器设置 没有则不设置
-		if (!CollectionUtils.isEmpty(recordPostProcessors)){
-			recordPostProcessors.forEach(recordDefinitionAutoRegistry::addRecordPostProcessor);
-		}
-		//模板解析器设置 没有则不设置
-		if (this.templateResolve != null){
-			recordDefinitionAutoRegistry.setTemplateResolve(templateResolve);
-		}
-		//参数解析器设置 没有则不设置
-		if (this.paramParse != null){
-			recordDefinitionAutoRegistry.setParamParse(paramParse);
-		}
-		//全局日志生成器设置 没有则不设置
-		if (this.defaultRecordProducer != null){
-			recordDefinitionAutoRegistry.setDefaultRecordProducer(defaultRecordProducer);
-		}
-		//全局生成默认管道设置 没有则不设置
-		if (this.defaultPipeline != null){
-			recordDefinitionAutoRegistry.setDefaultPipeline(defaultPipeline);
-		}
-		//设置组件工厂
-		recordDefinitionAutoRegistry.setComponentFactory(componentFactory);
-			//初始化组件
-		recordDefinitionAutoRegistry.initComponent();
-		//初始化
-		return recordDefinitionAutoRegistry;
-	}
-
 
 
 	@Autowired(required = false)
@@ -116,5 +83,42 @@ public class StreamRecordAutoConfiguration {
 	@Autowired(required = false)
 	public void setDefaultPipeline(Pipeline defaultPipeline) {
 		this.defaultPipeline = defaultPipeline;
+	}
+
+
+	@Bean
+	@ConditionalOnMissingBean(RecordDefinitionAutoRegistry.class)
+	public RecordDefinitionAutoRegistry recordPointcutAdvisor(ComponentFactory componentFactory){
+		RecordDefinitionAutoRegistry recordDefinitionAutoRegistry = new RecordDefinitionAutoRegistry();
+		//执行策略 没有则不设置
+		if (!CollectionUtils.isEmpty(processorStrategies)){
+			processorStrategies.forEach(recordDefinitionAutoRegistry::addProcessorStrategy);
+		}
+		//后置处理器设置 没有则不设置
+		if (!CollectionUtils.isEmpty(recordPostProcessors)){
+			recordPostProcessors.forEach(recordDefinitionAutoRegistry::addRecordPostProcessor);
+		}
+		//模板解析器设置 没有则不设置
+		if (templateResolve != null){
+			recordDefinitionAutoRegistry.setTemplateResolve(templateResolve);
+		}
+		//参数解析器设置 没有则不设置
+		if (paramParse != null){
+			recordDefinitionAutoRegistry.setParamParse(paramParse);
+		}
+		//全局日志生成器设置 没有则不设置
+		if (defaultRecordProducer != null){
+			recordDefinitionAutoRegistry.setDefaultRecordProducer(defaultRecordProducer);
+		}
+		//全局生成默认管道设置 没有则不设置
+		if (defaultPipeline != null){
+			recordDefinitionAutoRegistry.setDefaultPipeline(defaultPipeline);
+		}
+		//设置组件工厂
+		recordDefinitionAutoRegistry.setComponentFactory(componentFactory);
+		//初始化组件
+		recordDefinitionAutoRegistry.initComponent();
+		//初始化
+		return recordDefinitionAutoRegistry;
 	}
 }

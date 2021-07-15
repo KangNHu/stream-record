@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
+import org.springframework.core.Ordered;
 import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
@@ -19,9 +20,14 @@ import java.lang.reflect.Method;
  *
  * @author : KangNing Hu
  */
-public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implements InstantiationAwareBeanPostProcessor  {
+public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implements InstantiationAwareBeanPostProcessor ,
+		    Ordered {
 
 	private Logger logger = LoggerFactory.getLogger(RecordDefinitionAutoRegistry.class.getName());
+
+
+
+
 
 
 	@Override
@@ -78,4 +84,11 @@ public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implemen
 		return !beanClass.isAnnotationPresent(RecordService.class);
 	}
 
+
+
+
+	@Override
+	public int getOrder() {
+		return Ordered.LOWEST_PRECEDENCE;
+	}
 }

@@ -14,11 +14,6 @@ import java.util.List;
 */
 public class DefaultRecordDefinition extends AttributeAccess implements RecordDefinition {
 
-	//路由方法对象
-	public final static String ROUTE_METHOD =  "routeMethod";
-	//路由方法参数列表
-	public final static String ROUTE_METHOD_PARAM_TYPES = "routeMethodParamTypes";
-
 	private Class<?> targetClass;
 
 	private Method method;

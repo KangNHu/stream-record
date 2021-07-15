@@ -1,6 +1,7 @@
 package org.codingeasy.streamrecord.core.matedata;
 
 import org.codingeasy.streamrecord.core.annotation.Record;
+import org.codingeasy.streamrecord.core.annotation.RecordService;
 import org.codingeasy.streamrecord.core.annotation.Search;
 import org.codingeasy.streamrecord.core.model.Address;
 import org.codingeasy.streamrecord.core.model.Company;
@@ -18,6 +19,7 @@ import java.util.Map;
  * @see ParamNode
 * @author : KangNing Hu
 */
+@RecordService
 public class ParamNodeTest {
 
 	private User user;

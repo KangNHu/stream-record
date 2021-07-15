@@ -1,13 +1,15 @@
 package org.codingeasy.streamrecord.core.processor;
 
-import org.codingeasy.streamrecord.core.AttributeAccess;
-import org.codingeasy.streamrecord.core.CurrentContext;
-import org.codingeasy.streamrecord.core.InterceptMethodWrapper;
+import org.codingeasy.streamrecord.core.*;
+import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
+import org.codingeasy.streamrecord.core.matedata.RecordDefinitionBuilder;
 import org.codingeasy.streamrecord.core.matedata.RecordInfo;
 import org.codingeasy.streamrecord.core.matedata.DefaultRecordDefinition;
 import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
+
+import static org.codingeasy.streamrecord.core.matedata.RecordDefinitionBuilder.*;
 
 /**
 * 基于方法路由的处理策略
@@ -33,8 +35,8 @@ public class MethodRouteProcessor implements Processor {
 	 */
 	private void invokeRouteMethod(DefaultRecordDefinition recordDefinition , CurrentContext currentContext) {
 		InterceptMethodWrapper interceptMethodWrapper = currentContext.getInterceptMethodWrapper();
-		Method routeMethod = (Method)recordDefinition.get(DefaultRecordDefinition.ROUTE_METHOD);
-		Class[] paramTypes = (Class[])recordDefinition.get(DefaultRecordDefinition.ROUTE_METHOD_PARAM_TYPES);
+		Method routeMethod = (Method)recordDefinition.get(ROUTE_METHOD);
+		Class[] paramTypes = (Class[])recordDefinition.get(ROUTE_METHOD_PARAM_TYPES);
 		int length = paramTypes.length;
 		Object[] params = new Object[length];
 		for (int i = 0 ; i < length ; i ++){
@@ -47,13 +49,29 @@ public class MethodRouteProcessor implements Processor {
 				params[i] = interceptMethodWrapper.get(i);
 			}
 		}
-		Object value = ReflectionUtils.invokeMethod(routeMethod, params);
+
+		Object value = ReflectionUtils.invokeMethod(routeMethod,getRouteTarget(currentContext) , params);
 		//如何返回的值不为空者作为记录信息存储
-		if (value == null){
+		if (value != null){
 			AttributeAccess attributeAccess = currentContext.getAttributeAccess();
 			attributeAccess.put(RecordInfo.MASSAGE_ATTR , value.toString());
 		}
 	}
 
+
+	/**
+	 * 获取路由的目标对象
+	 * @param currentContext 当前记录上下文
+	 * @return 路由的目标对象
+	 */
+	public Object getRouteTarget(CurrentContext currentContext){
+		DefaultRecordDefinition recordDefinition = (DefaultRecordDefinition)currentContext.getRecordDefinition();
+		RecordContext recordContext = (RecordContext)currentContext.getRecordDefinitionRegistry();
+		Class routeTargetClass = recordDefinition.getAttribute(ROUTE_TARGET);
+		if (routeTargetClass == null){
+			throw new IllegalStateException("路由目标未指定");
+		}
+		return recordContext.createComponent(routeTargetClass);
+	}
 
 }

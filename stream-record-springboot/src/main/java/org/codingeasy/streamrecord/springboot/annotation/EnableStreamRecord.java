@@ -1,5 +1,7 @@
 package org.codingeasy.streamrecord.springboot.annotation;
 
+import org.codingeasy.streamrecord.springboot.configuration.RecordDefinitionAutoRegistry;
+import org.codingeasy.streamrecord.springboot.configuration.RecordServiceBeanDefinitionRegister;
 import org.codingeasy.streamrecord.springboot.configuration.StreamRecordAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
@@ -14,7 +16,7 @@ import java.lang.annotation.Target;
 */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import(StreamRecordAutoConfiguration.class)
+@Import({RecordServiceBeanDefinitionRegister.class , StreamRecordAutoConfiguration.class})
 public @interface EnableStreamRecord {
 
 }

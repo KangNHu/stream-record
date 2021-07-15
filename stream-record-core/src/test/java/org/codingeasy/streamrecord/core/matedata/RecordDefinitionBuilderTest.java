@@ -1,10 +1,7 @@
 package org.codingeasy.streamrecord.core.matedata;
 
 import org.codingeasy.streamrecord.core.InterceptMethodWrapper;
-import org.codingeasy.streamrecord.core.annotation.Record;
-import org.codingeasy.streamrecord.core.annotation.Param;
-import org.codingeasy.streamrecord.core.annotation.RouteTarget;
-import org.codingeasy.streamrecord.core.annotation.Search;
+import org.codingeasy.streamrecord.core.annotation.*;
 import org.codingeasy.streamrecord.core.model.Company;
 import org.codingeasy.streamrecord.core.model.User;
 import org.codingeasy.streamrecord.core.processor.ProcessorStrategy;
@@ -16,11 +13,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static org.codingeasy.streamrecord.core.matedata.RecordDefinitionBuilder.ROUTE_METHOD;
+import static org.codingeasy.streamrecord.core.matedata.RecordDefinitionBuilder.ROUTE_METHOD_PARAM_TYPES;
+
 /**
 *   日志构建器单元测试类
  *   @see RecordDefinitionBuilder
 * @author : KangNing Hu
 */
+@RecordService
 public class RecordDefinitionBuilderTest {
 
 
@@ -113,8 +114,8 @@ public class RecordDefinitionBuilderTest {
 		List<ParamNode>[] params = genericLogDefinition.getParams();
 		assert params[0].size() == 1 : "第一个参数信息解析错误";
 		//断言 路由方法信息
-		assert ((Method)genericLogDefinition.getAttribute(DefaultRecordDefinition.ROUTE_METHOD)).toGenericString().equals(routeTargetMethod.toGenericString()): "路由方法解析错误";
-		assert Arrays.asList((Class[])genericLogDefinition.get(DefaultRecordDefinition.ROUTE_METHOD_PARAM_TYPES))
+		assert ((Method)genericLogDefinition.getAttribute(ROUTE_METHOD)).toGenericString().equals(routeTargetMethod.toGenericString()): "路由方法解析错误";
+		assert Arrays.asList((Class[])genericLogDefinition.get(ROUTE_METHOD_PARAM_TYPES))
 				.stream().map(Class::getTypeName).collect(Collectors.joining(",")).equals("java.lang.String,org.codingeasy.streamrecord.core.InterceptMethodWrapper"):
 				"路由方法参数解析错误";
 	}

@@ -11,6 +11,7 @@ public enum  Advice {
 	//后置
 	AFTER,
 	//异常
-	EXCEPTION;
-
+	EXCEPTION,
+	//无意义
+	NONE;
 }

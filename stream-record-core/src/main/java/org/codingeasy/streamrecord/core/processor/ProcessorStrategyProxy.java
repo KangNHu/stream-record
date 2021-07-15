@@ -48,37 +48,30 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 	}
 
 	public Object process(CurrentContext currentContext) throws Throwable {
-		Object obj = null;
-		try {
-			RecordDefinition recordDefinition = currentContext.getRecordDefinition();
-			Advice advice = recordDefinition.getAdvice();
-			//前置
-			if (advice == Advice.BEFORE) {
-				//不影响代码目标正常执行
-				try {
-					routeProcess(currentContext, recordDefinition.isAsync());
-				}finally {
-					obj = currentContext.invoke();
-				}
-			}
-			//后置
-			else if (advice == Advice.AFTER) {
-				obj = currentContext.invoke();
+		Object obj;
+		RecordDefinition recordDefinition = currentContext.getRecordDefinition();
+		Advice advice = recordDefinition.getAdvice();
+		//前置
+		if (advice == Advice.BEFORE) {
+			//不影响代码目标正常执行
+			try {
 				routeProcess(currentContext, recordDefinition.isAsync());
+			}finally {
+				obj = currentContext.invoke();
 			}
-			//异常
-			else {
-				try {
-					obj = currentContext.invoke();
-				} catch (Throwable throwable) {
-					routeProcess(currentContext, recordDefinition.isAsync());
-					throw throwable;
-				}
-			}
-		}catch (Exception e){
-			logger.error("执行流处理失败" , e);
-			if (obj == null){
-				throw e;
+		}
+		//后置
+		else if (advice == Advice.AFTER) {
+			obj = currentContext.invoke();
+			routeProcess(currentContext, recordDefinition.isAsync());
+		}
+		//异常
+		else {
+			try {
+				obj = currentContext.invoke();
+			} catch (Throwable throwable) {
+				routeProcess(currentContext, recordDefinition.isAsync());
+				throw throwable;
 			}
 		}
 		return obj;
@@ -86,14 +79,18 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 
 	/**
 	 * 路由不同的执行方式
-	 * @param currentContext
-	 * @param isAsync
+	 * @param currentContext 当前上下文
+	 * @param isAsync 是否异步
 	 */
 	private void routeProcess(CurrentContext currentContext , boolean isAsync){
-		if (isAsync){
-			executor.execute(() -> doProcess(currentContext));
-		}else {
-			doProcess(currentContext);
+		try {
+			if (isAsync) {
+				executor.execute(() -> doProcess(currentContext));
+			} else {
+				doProcess(currentContext);
+			}
+		}catch (Exception e){
+			logger.warn("处理记录失败" ,e);
 		}
 	}
 

@@ -2,65 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3222527c-072d-4ddd-b2ee-1ce6f48a47f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_22_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-core/.flattened-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/InterceptMethodWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/InterceptMethodWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceBeanDefinitionRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceDefinitionScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/Advice.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/Advice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-core/stream-record-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/stream-record-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-examples/.flattened-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-record-springboot/.flattened-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/ParamNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/ParamNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -87,110 +44,111 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java">
+        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="144" column="81" selection-start-line="144" selection-start-column="81" selection-end-line="144" selection-end-column="81" />
+            <state relative-caret-position="339">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2108#2109#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2226#2227#0" expanded="true" />
+                <element signature="e#2483#2484#0" expanded="true" />
+                <element signature="e#2528#2529#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/SpringComponentFactory.java">
+        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceDefinitionScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="62">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-411">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4081#4082#0" expanded="true" />
+                <element signature="e#4095#4096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="56" column="42" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java">
+        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="290">
+              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceBeanDefinitionRegister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1913#1914#0" expanded="true" />
+                <element signature="e#1928#1929#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.13.RELEASE/spring-boot-autoconfigure-2.2.13.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="222">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-              <folding>
-                <element signature="e#3256#3257#0" expanded="true" />
-                <element signature="e#3291#3292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/RecordPointcutAdvisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2215#2216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/CurrentContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="33" />
-              <folding>
-                <element signature="e#2399#2400#0" expanded="true" />
-                <element signature="e#2429#2430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/utils/SpringELUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -238,22 +196,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/Record.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordInfo.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RecordService.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategy.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/LogPointcutAdvisor.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ExpressionProcessor.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordInfo.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/Processor.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordInfoWrapper.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/LogContext.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/LogPostProcessor.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/RecordPostProcessor.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinition.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/LogPointcut.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordDefinition.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/RecordPointcut.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/DefaultLogDefinitionRegistry.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/LogDefinitionRegistry.java" />
@@ -262,7 +211,6 @@
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/DefaultRecordProducer.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/CurrentContext.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/ComponentRegistry.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/ParamNodeTest.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/LogContextTest.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/RecordContextTest.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/DefaultRecordDefinitionRegistryTest.java" />
@@ -270,7 +218,6 @@
         <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/EnableStreamRecord.java" />
         <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/IdGenerator.java" />
         <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/LogAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/stream-record-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/pojo/Address.java" />
         <option value="$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/pojo/Company.java" />
@@ -278,17 +225,28 @@
         <option value="$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/DefaultParamParseTest.java" />
         <option value="$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/expression/SimpleExpressionExample.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java" />
         <option value="$PROJECT_DIR$/stream-record-examples/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/stream-record-core/pom.xml" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/utils/SpringELUtils.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/InterceptMethodWrapper.java" />
-        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/RecordPointcutAdvisor.java" />
+        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceDefinittionScanner.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/Advice.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/Record.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RecordService.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/ParamNodeTest.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordDefinition.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java" />
         <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java" />
+        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceBeanDefinitionRegister.java" />
         <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java" />
+        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceDefinitionScanner.java" />
+        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java" />
+        <option value="$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java" />
       </list>
     </option>
   </component>
@@ -320,31 +278,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="stream-record-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stream-record-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.codingeasy:stream-record-core:1.0.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stream-record-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-context:5.2.14.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stream-record-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-autoconfigure:2.2.13.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stream-record-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-autoconfigure:2.2.13.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot:2.2.13.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -449,6 +382,19 @@
               <item name="streamrecord" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="matedata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stream-record" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-record" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-record-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="codingeasy" type="462c0819:PsiDirectoryNode" />
+              <item name="streamrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stream-record" type="b2602c69:ProjectViewProjectNode" />
@@ -728,7 +674,7 @@
       <workItem from="1623047039445" duration="105000" />
       <workItem from="1623047152969" duration="4038000" />
       <workItem from="1626230340625" duration="283000" />
-      <workItem from="1626230632193" duration="9646000" />
+      <workItem from="1626230632193" duration="20947000" />
     </task>
     <task id="LOCAL-00001" summary="优化记录处理逻辑，变更日志框架">
       <created>1626235120735</created>
@@ -773,20 +719,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103156000" />
+    <option name="totallyTimeSpent" value="114457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12026862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31734693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24693878" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3867347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3010204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40510204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -794,14 +741,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30408162" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30408162" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.41428572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.24693878" visible="true" weight="0.0946276" />
+      <window_info active="true" anchor="right" id="Maven" order="4" sideWeight="0.24693878" visible="true" weight="0.10866911" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
@@ -869,202 +816,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/IdGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/LogService.java" />
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/pojo/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/pojo/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="624" selection-start-line="624" selection-end-line="624" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="1176" selection-start-line="1176" selection-end-line="1176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="721" column="60" selection-start-line="721" selection-start-column="60" selection-end-line="721" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="199" column="33" selection-start-line="199" selection-start-column="33" selection-end-line="199" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="147" column="64" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#13354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/RecordPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/DefaultRecordDefinitionRegistryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/DefaultParamParseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8646">
-          <caret line="431" column="13" selection-start-line="431" selection-start-column="13" selection-end-line="431" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RouteTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/RecordContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/AttributeAccessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-examples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-record-examples/src/main/java/org/codingeasy/streamrecord/examples/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1086,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="35" column="92" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1136,10 +880,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/InterceptMethodWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/utils/SpringELUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/SpringComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/RecordPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/stereotype/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="7" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/stereotype/Indexed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.12.RELEASE/spring-core-5.2.12.RELEASE.jar!/org/springframework/core/type/filter/AnnotationTypeFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.12.RELEASE/spring-core-5.2.12.RELEASE.jar!/org/springframework/core/type/filter/TypeFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4840">
+          <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
+          <folding>
+            <element signature="e#4033#4034#0" expanded="true" />
+            <element signature="e#4087#4088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/Advice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/ParamNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/CurrentContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2429#2430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/DefaultParamParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="49" column="87" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/test/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/RecordPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/Pipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/DefaultRecordDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="e#1996#1997#0" expanded="true" />
             <element signature="e#2021#2022#0" expanded="true" />
@@ -1156,106 +1091,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java">
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/AttributeAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/InterceptMethodWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/CurrentContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="338">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <element signature="e#2399#2400#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/utils/SpringELUtils.java">
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/annotation/RouteTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="227">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/matedata/RecordDefinitionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="144" column="81" selection-start-line="144" selection-start-column="81" selection-end-line="144" selection-end-column="81" />
+        <state relative-caret-position="-498">
+          <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/SpringComponentFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+        <state relative-caret-position="352">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding>
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#0#32835#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/support/RecordPointcutAdvisor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/RecordContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.14.RELEASE/spring-context-5.2.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="239">
+          <caret line="531" column="16" selection-start-line="531" selection-start-column="16" selection-end-line="532" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="222">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.12.RELEASE/spring-beans-5.2.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="155">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.13.RELEASE/spring-boot-autoconfigure-2.2.13.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordDefinitionAutoRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="-411">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4081#4082#0" expanded="true" />
+            <element signature="e#4095#4096#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/StreamRecordAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/configuration/RecordServiceBeanDefinitionRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-springboot/src/main/java/org/codingeasy/streamrecord/springboot/annotation/EnableStreamRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/MethodRouteProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-record-core/src/main/java/org/codingeasy/streamrecord/core/processor/ProcessorStrategyProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
         </state>
       </provider>
     </entry>

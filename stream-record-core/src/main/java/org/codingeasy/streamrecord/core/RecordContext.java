@@ -66,9 +66,16 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 			this.defaultRecordProducer = new DefaultRecordProducer();
 		}
 		if (this.executor == null){
-			this.executor = new ThreadPoolExecutor(4 , Runtime.getRuntime().availableProcessors() + 1 ,
-					30 , TimeUnit.MINUTES  , new SynchronousQueue<Runnable>() ,
-					new BasicThreadFactory.Builder().namingPattern("Record-Thread-").build());
+			this.executor = new ThreadPoolExecutor(4 ,
+					Runtime.getRuntime().availableProcessors() + 1 ,
+					30 ,
+					TimeUnit.MINUTES  ,
+					new SynchronousQueue<Runnable>() ,
+					new BasicThreadFactory
+							.Builder()
+							.namingPattern("Record-Thread-")
+							.build()
+			);
 		}
 		this.processorStrategyProxy = new ProcessorStrategyProxy(this.defaultRecordProducer, this.defaultPipeline , this.executor);
 		//添加内置处理策略

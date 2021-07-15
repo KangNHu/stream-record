@@ -19,17 +19,10 @@ import java.lang.annotation.*;
 public @interface RecordService {
 
 	/**
-	 * 是否异步处理
-	 * @return
-	 */
-	boolean isAsync() default true;
-
-
-	/**
 	 * 拦截方式
 	 * @return
 	 */
-	Advice advice() default Advice.AFTER;
+	Advice advice() default Advice.NONE;
 
 
 	/**
@@ -38,7 +31,7 @@ public @interface RecordService {
 	 * @see  Processor
 	 * @return
 	 */
-	String strategy() default ProcessorStrategy.EXPRESSION_NAME;
+	String strategy() default "";
 
 
 	/**

@@ -1,6 +1,7 @@
 package org.codingeasy.streamrecord.core.matedata;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.codingeasy.streamrecord.core.AttributeAccess;
 import org.codingeasy.streamrecord.core.InterceptMethodWrapper;
 import org.codingeasy.streamrecord.core.RecordProducer;
@@ -25,6 +26,13 @@ import java.util.stream.Collectors;
 */
 public class RecordDefinitionBuilder {
 
+	//路由目标
+	public final static String ROUTE_TARGET = RecordDefinitionBuilder.class.getName() + "_route_target";
+
+	//路由方法对象
+	public final static String ROUTE_METHOD = RecordDefinitionBuilder.class.getName() + "_route_method";
+	//路由方法参数列表
+	public final static String ROUTE_METHOD_PARAM_TYPES =RecordDefinitionBuilder.class.getName() + "_route_method_param_types";
 	//方法对象
 	private Method method;
 
@@ -43,31 +51,24 @@ public class RecordDefinitionBuilder {
 	 * @return
 	 */
 	public RecordDefinition getGenericRecordDefinition(){
-		//获取全局元信息
+		//获取类的全局元信息
 		RecordService recordService = AnnotationUtils.findAnnotation(clazz, RecordService.class);
-		Boolean async = null;
-		Advice advice = null;
-		Class<? extends Pipeline> pipelineClass = null;
-		Class<? extends RecordProducer> recordProducerClass = null;
-		String strategy = null;
-		if (recordService != null) {
-			async = recordService.isAsync();
-			advice = recordService.advice();
-			pipelineClass = recordService.pipelineClass();
-			recordProducerClass = recordService.producerClass();
-			strategy = recordService.strategy();
-		}
+		assert recordService != null : String.format("%s 类缺少必要@RecordService" , this.clazz.toGenericString());
+		Advice advice = recordService.advice();
+		Class<? extends Pipeline> pipelineClass = recordService.pipelineClass();
+		Class<? extends RecordProducer> recordProducerClass = recordService.producerClass();
+		String strategy = recordService.strategy();
 		//获取基本元信息
 		Record record = AnnotationUtils.findAnnotation(method, Record.class);
-		assert  record != null : "方法缺少必要的@Record";
+		assert  record != null : String.format("%s 方法缺少必要的@Record" , method.toGenericString());
 		DefaultRecordDefinition defaultRecordDefinition = new DefaultRecordDefinition();
-		defaultRecordDefinition.setAdvice(advice == null ? record.advice() : advice);
-		defaultRecordDefinition.setAsync(async == null ? record.isAsync() : async);
-		defaultRecordDefinition.setRecordProducerClass(recordProducerClass == null ? record.producerClass() : recordProducerClass);
+		defaultRecordDefinition.setAdvice(advice == Advice.NONE ? record.advice() : advice);
+		defaultRecordDefinition.setAsync(record.isAsync());
+		defaultRecordDefinition.setRecordProducerClass(recordProducerClass == Record.Void.class ? record.producerClass() : recordProducerClass);
 		defaultRecordDefinition.setMethod(method);
 		defaultRecordDefinition.setName("");
-		defaultRecordDefinition.setPipelineClass(pipelineClass == null? record.pipelineClass() : pipelineClass);
-		defaultRecordDefinition.setProcessorStrategy(strategy == null ? record.strategy() : strategy);
+		defaultRecordDefinition.setPipelineClass(pipelineClass == Record.Void.class? record.pipelineClass() : pipelineClass);
+		defaultRecordDefinition.setProcessorStrategy(StringUtils.isEmpty(strategy)? record.strategy() : strategy);
 		defaultRecordDefinition.setTargetClass(clazz);
 		defaultRecordDefinition.setTemple(record.value());
 		//解析参数
@@ -148,8 +149,9 @@ public class RecordDefinitionBuilder {
 				throw new IllegalArgumentException(String.format("%s在%s中是一个无效的路由目标方法" ,
 						Arrays.asList(paramTypes).stream().map(Class::getTypeName).collect(Collectors.joining()) , targetClass.getTypeName()));
 			}
-			defaultRecordDefinition.setAttribute(DefaultRecordDefinition.ROUTE_METHOD , method);
-			defaultRecordDefinition.setAttribute(DefaultRecordDefinition.ROUTE_METHOD_PARAM_TYPES , paramTypes);
+			defaultRecordDefinition.setAttribute(ROUTE_TARGET ,targetClass);
+			defaultRecordDefinition.setAttribute(ROUTE_METHOD , method);
+			defaultRecordDefinition.setAttribute(ROUTE_METHOD_PARAM_TYPES , paramTypes);
 		}
 	}
 
