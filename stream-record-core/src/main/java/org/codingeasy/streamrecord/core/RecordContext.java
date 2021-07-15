@@ -25,7 +25,7 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 	private ProcessorStrategyProxy processorStrategyProxy;
 
 	//上下文生命周期钩子处理器
-	private List<RecordPostProcessor> recordPostProcessors;
+	private List<RecordPostProcessor> recordPostProcessors = new ArrayList<>();
 
 	//参数解析器
 	private ParamParse paramParse;
@@ -70,7 +70,6 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 					30 , TimeUnit.MINUTES  , new SynchronousQueue<Runnable>() ,
 					new BasicThreadFactory.Builder().namingPattern("Record-Thread-").build());
 		}
-		this.recordPostProcessors = new ArrayList<>();
 		this.processorStrategyProxy = new ProcessorStrategyProxy(this.defaultRecordProducer, this.defaultPipeline , this.executor);
 		//添加内置处理策略
 		// 基于el表达式的策略

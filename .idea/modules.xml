@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/stream-record.iml" filepath="$PROJECT_DIR$/stream-record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-core/stream-record-core.iml" filepath="$PROJECT_DIR$/stream-record-core/stream-record-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" filepath="$PROJECT_DIR$/stream-record-examples/stream-record-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-record-springboot/stream-record-springboot.iml" filepath="$PROJECT_DIR$/stream-record-springboot/stream-record-springboot.iml" />
+    </modules>
+  </component>
+</project>

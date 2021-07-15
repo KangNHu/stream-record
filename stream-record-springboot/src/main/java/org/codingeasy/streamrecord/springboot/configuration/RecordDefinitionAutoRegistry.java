@@ -32,7 +32,7 @@ public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implemen
 		}
 		//判断是否为record definition class
 		if (isNotRecordDefinitionClass(beanClass)){
-			return false;
+			return true;
 		}
 		Class targetClass = beanClass;
 		//注册record definition
@@ -48,7 +48,7 @@ public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implemen
 			//遍历父类方法
 			targetClass = beanClass.getSuperclass();
 		} while (targetClass != null  && targetClass != Object.class);
-		return false;
+		return true;
 	}
 
 

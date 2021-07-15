@@ -47,4 +47,7 @@ public class InterceptMethodWrapper extends ArrayList<Object> {
 	public MethodInvocation getMethodInvocation() {
 		return methodInvocation;
 	}
+
+
+
 }

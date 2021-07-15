@@ -1,6 +1,7 @@
 package org.codingeasy.streamrecord.core.processor;
 
 import org.codingeasy.streamrecord.core.CurrentContext;
+import org.codingeasy.streamrecord.core.InterceptMethodWrapper;
 import org.codingeasy.streamrecord.core.RecordProducer;
 import org.codingeasy.streamrecord.core.Pipeline;
 import org.codingeasy.streamrecord.core.annotation.Record;
@@ -111,6 +112,14 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 			recordProducer = defaultRecordProducer;
 		}
 		RecordInfoWrapper recordInfoWrapper = recordProducer.doProduce(currentContext);
+		if (recordInfoWrapper == null){
+			if (logger.isDebugEnabled()){
+				logger.debug("当前生成记录为空忽略 , 记录定义：{} 运行参数 ：{}" ,
+						currentContext.getRecordDefinition() ,
+						currentContext.getInterceptMethodWrapper());
+			}
+			return;
+		}
 		Pipeline pipeline = currentContext.getPipeline();
 		//如果指定记录生成器则用指定的管道，否则使用全局的记录管道
 		if (pipeline.getClass() == Record.Void.class){
