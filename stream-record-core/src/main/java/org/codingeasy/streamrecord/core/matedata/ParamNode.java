@@ -112,11 +112,19 @@ public class ParamNode {
 			return new HashMap<>();
 		}
 		//创建容器
-		Map<String , Object> param = new HashMap<>();
-		//解析参数
-		this.field.setAccessible(true);
+		Map<String, Object> param = new HashMap<>();
 		//如果 没有搜索节点 则只需要处理当前对象
-		Object value = ReflectionUtils.getField(this.field, target);
+		Object value;
+		if (this.field != null) {
+			//解析参数
+			this.field.setAccessible(true);
+			value = ReflectionUtils.getField(this.field, target);
+		}
+		//如果是顶级节点 则为对象本身
+		else {
+			value = target;
+		}
+
 		if (CollectionUtils.isEmpty(this.searchParamNodes)){
 			param.put(this.paramName , value);
 		}

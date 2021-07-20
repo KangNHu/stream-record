@@ -18,6 +18,8 @@ public class RecordServiceDefinitionScanner extends ClassPathBeanDefinitionScann
 
 	public RecordServiceDefinitionScanner(BeanDefinitionRegistry definitionRegistry) {
 		super(definitionRegistry);
+		//不进行导入，防止重复导入
+		setIncludeAnnotationConfig(false);
 		//重置spring 扫描注解
 		resetFilters(false);
 		//添加shiroFilter

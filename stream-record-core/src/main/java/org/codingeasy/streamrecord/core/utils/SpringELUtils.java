@@ -36,20 +36,20 @@ public class SpringELUtils {
      * @return
      */
     public static String parse(String spel, Method method, Object[] args) {
-        Expression expression = getExpressionByTemplate(spel);
-        if (expression == null){
-            return null;
-        }
-        String[] paraNameArr = MethodUtils.getParamNames(method);
-        //SPEL上下文
-        StandardEvaluationContext context = new StandardEvaluationContext();
-        //把方法参数放入SPEL上下文中
-        for (int i = 0; i < paraNameArr.length; i++) {
-            context.setVariable(paraNameArr[i], args[i]);
-        }
         try {
+            Expression expression = getExpressionByTemplate(spel);
+            if (expression == null){
+                return null;
+            }
+            String[] paraNameArr = MethodUtils.getParamNames(method);
+            //SPEL上下文
+            StandardEvaluationContext context = new StandardEvaluationContext();
+            //把方法参数放入SPEL上下文中
+            for (int i = 0; i < paraNameArr.length; i++) {
+                context.setVariable(paraNameArr[i], args[i]);
+            }
             return expression.getValue(context, String.class);
-        }catch (EvaluationException e){
+        }catch (Exception e){
             logger.warn( "可能是错误的表达式：{}" , spel);
             return spel;
         }
