@@ -5,6 +5,7 @@ import org.aopalliance.intercept.MethodInvocation;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
 import org.codingeasy.streamrecord.core.processor.*;
+import org.codingeasy.streamrecord.core.utils.RuntimeUtils;
 import org.springframework.beans.BeanUtils;
 
 import java.lang.reflect.Method;
@@ -66,8 +67,9 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 			this.defaultRecordProducer = new DefaultRecordProducer();
 		}
 		if (this.executor == null){
-			this.executor = new ThreadPoolExecutor(4 ,
-					Runtime.getRuntime().availableProcessors() + 1 ,
+			int count = RuntimeUtils.availableProcessors(4);
+			this.executor = new ThreadPoolExecutor(count/2 ,
+					count + 1 ,
 					30 ,
 					TimeUnit.MINUTES  ,
 					new SynchronousQueue<Runnable>() ,
