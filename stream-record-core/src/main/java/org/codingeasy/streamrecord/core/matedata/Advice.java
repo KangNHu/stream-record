@@ -10,6 +10,8 @@ public enum  Advice {
 	BEFORE,
 	//后置
 	AFTER,
+	//后置异常处理
+	AFTER_EXCEPTION,
 	//异常
 	EXCEPTION,
 	//无意义

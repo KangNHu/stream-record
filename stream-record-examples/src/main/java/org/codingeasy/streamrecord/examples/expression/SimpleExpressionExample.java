@@ -50,8 +50,10 @@ public class SimpleExpressionExample {
 			@Override
 			public RecordInfoWrapper doProduce(CurrentContext currentContext) {
 				try {
+
 					System.out.printf("日志的属性参数 %s" ,currentContext.getAttributeAccess()
 							.entrySet().stream().map(item -> item.getKey() + ":" + item.getValue()).collect(Collectors.joining(",")));
+					System.out.println(String.format("执行时长：%s" ,  currentContext.getDuration()));
 				}catch (Exception e){
 					e.printStackTrace();
 				}

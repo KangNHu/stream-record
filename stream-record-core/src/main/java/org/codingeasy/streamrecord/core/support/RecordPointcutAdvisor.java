@@ -2,34 +2,29 @@ package org.codingeasy.streamrecord.core.support;
 
 import org.aopalliance.aop.Advice;
 import org.codingeasy.streamrecord.core.*;
+import org.codingeasy.streamrecord.core.annotation.Record;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
 import org.codingeasy.streamrecord.core.processor.RecordPostProcessor;
 import org.codingeasy.streamrecord.core.processor.ProcessorStrategy;
 import org.codingeasy.streamrecord.core.processor.TemplateResolve;
-import org.springframework.aop.Pointcut;
-import org.springframework.aop.PointcutAdvisor;
+import org.springframework.aop.support.StaticMethodMatcherPointcutAdvisor;
 
+import java.lang.reflect.Method;
 import java.util.concurrent.Executor;
 
 /**
 * 记录条件通知
 * @author : KangNing Hu
 */
-public class RecordPointcutAdvisor implements ComponentRegistry,PointcutAdvisor {
+public class RecordPointcutAdvisor  extends StaticMethodMatcherPointcutAdvisor implements ComponentRegistry {
 
 	private RecordContext recordContext;
 
-	private RecordPointcut recordPointcut;
 
 	public RecordPointcutAdvisor(){
 		this.recordContext = new RecordContext();
-		this.recordPointcut = new RecordPointcut();
 	}
 
-	@Override
-	public Pointcut getPointcut() {
-		return recordPointcut;
-	}
 
 	@Override
 	public Advice getAdvice() {
@@ -90,5 +85,11 @@ public class RecordPointcutAdvisor implements ComponentRegistry,PointcutAdvisor 
 	@Override
 	public void register(RecordDefinition recordDefinition) {
 		recordContext.register(recordDefinition);
+	}
+
+
+	@Override
+	public boolean matches(Method method, Class<?> targetClass) {
+		return method.isAnnotationPresent(Record.class);
 	}
 }

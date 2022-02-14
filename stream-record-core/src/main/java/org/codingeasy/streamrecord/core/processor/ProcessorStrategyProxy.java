@@ -48,7 +48,7 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 	}
 
 	public Object process(CurrentContext currentContext) throws Throwable {
-		Object obj;
+		Object obj = null;
 		RecordDefinition recordDefinition = currentContext.getRecordDefinition();
 		Advice advice = recordDefinition.getAdvice();
 		//前置
@@ -64,6 +64,18 @@ public class ProcessorStrategyProxy extends HashMap<String, Processor> {
 		else if (advice == Advice.AFTER) {
 			obj = currentContext.invoke();
 			routeProcess(currentContext, recordDefinition.isAsync());
+		}
+		//后置异常进行处理
+		else if (advice == Advice.AFTER_EXCEPTION){
+			try {
+				obj = currentContext.invoke();
+			}catch (Throwable e){
+				currentContext.setThrowable(e);
+			}
+			routeProcess(currentContext , recordDefinition.isAsync());
+			if (currentContext.hasException()){
+				throw currentContext.getThrowable();
+			}
 		}
 		//异常
 		else {

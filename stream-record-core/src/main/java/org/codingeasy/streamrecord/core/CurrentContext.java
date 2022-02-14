@@ -48,6 +48,22 @@ public class CurrentContext {
 	private String  processorStrategyName;
 
 
+	/**
+	 * 执行异常
+	 */
+	private Throwable throwable;
+
+	/**
+	 * 业务执行的开始时间
+	 */
+	private Long startTime;
+
+	/**
+	 * 业务执行的结束时间
+	 */
+	private Long endTime;
+
+
 	public CurrentContext(RecordDefinitionRegistry recordDefinitionRegistry, AttributeAccess attributeAccess, InterceptMethodWrapper interceptMethodWrapper){
 		this.recordDefinitionRegistry = recordDefinitionRegistry;
 		this.attributeAccess = attributeAccess;
@@ -78,9 +94,44 @@ public class CurrentContext {
 	 * @throws Throwable
 	 */
 	public Object invoke() throws Throwable {
-		MethodInvocation methodInvocation = this.interceptMethodWrapper.getMethodInvocation();
-		return methodInvocation.proceed();
+		this.startTime = System.currentTimeMillis();
+		try {
+			MethodInvocation methodInvocation = this.interceptMethodWrapper.getMethodInvocation();
+			return methodInvocation.proceed();
+		}finally {
+			this.endTime = System.currentTimeMillis();
+		}
 	}
+
+
+	/**
+	 * 是否有异常
+	 * @return 有异常返回true，否则返回false
+	 */
+	public boolean hasException(){
+		return this.throwable != null;
+	}
+
+	/**
+	 * 获取业务执行的持续时间
+	 * @return 返回业务方法执行的持续时间， 如果执行通知类型为{@link org.codingeasy.streamrecord.core.matedata.Advice#BEFORE} 则持续时间返回-1
+	 */
+	public Long getDuration(){
+		if (this.endTime == null || this.startTime == null){
+			return 0L;
+		}
+		return this.endTime - this.startTime;
+	}
+
+	public Long getStartTime() {
+		return startTime;
+	}
+
+
+	public Long getEndTime() {
+		return endTime;
+	}
+
 
 	public RecordDefinitionRegistry getRecordDefinitionRegistry() {
 		return recordDefinitionRegistry;
@@ -98,6 +149,13 @@ public class CurrentContext {
 		return recordDefinition;
 	}
 
+	public Throwable getThrowable() {
+		return throwable;
+	}
+
+	public void setThrowable(Throwable throwable) {
+		this.throwable = throwable;
+	}
 	public Pipeline getPipeline() {
 		return pipeline;
 	}
