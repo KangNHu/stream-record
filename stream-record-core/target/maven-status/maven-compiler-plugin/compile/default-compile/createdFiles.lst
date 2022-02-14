@@ -18,6 +18,7 @@ org/codingeasy/streamrecord/core/matedata/RecordDefinition.class
 org/codingeasy/streamrecord/core/matedata/RecordInfoWrapper.class
 org/codingeasy/streamrecord/core/processor/ExpressionProcessor.class
 org/codingeasy/streamrecord/core/annotation/RecordService.class
+org/codingeasy/streamrecord/core/utils/RuntimeUtils.class
 org/codingeasy/streamrecord/core/spring/MethodBasedEvaluationContext.class
 org/codingeasy/streamrecord/core/ComponentRegistry.class
 org/codingeasy/streamrecord/core/annotation/Record.class

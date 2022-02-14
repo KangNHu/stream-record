@@ -58,7 +58,7 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 			this.paramParse = new DefaultParamParse();
 		}
 		if (this.componentFactory == null){
-			this.componentFactory = this;
+			this.componentFactory = BeanUtils::instantiateClass;
 		}
 		if (this.templateResolve == null){
 			this.templateResolve = new SpElTemplateResolve();
@@ -177,7 +177,7 @@ public class RecordContext implements ComponentRegistry, MethodInterceptor, Comp
 
 	@Override
 	public Object createComponent(Class clazz) {
-		return BeanUtils.instantiateClass(clazz);
+		return componentFactory.createComponent(clazz);
 	}
 
 
