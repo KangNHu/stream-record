@@ -4,11 +4,12 @@ import org.codingeasy.streamrecord.core.CurrentContext;
 
 /**
  * 记录处理方式
- * @see ProcessorStrategy
+ *
  * @author hukangning
+ * @see ProcessorStrategy
  */
 public interface Processor {
 
 
-	void process(CurrentContext currentContext);
+  void process(CurrentContext currentContext);
 }

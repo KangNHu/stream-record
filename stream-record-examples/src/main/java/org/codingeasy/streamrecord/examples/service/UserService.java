@@ -8,5 +8,5 @@ import org.codingeasy.streamrecord.examples.pojo.User;
 public interface UserService {
 
 
-	void simple(User user);
+  void simple(User user);
 }

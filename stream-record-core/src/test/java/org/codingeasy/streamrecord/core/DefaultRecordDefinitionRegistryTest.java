@@ -12,30 +12,31 @@ import java.beans.MethodDescriptor;
 import java.lang.reflect.Method;
 
 /**
-* 默认实现的日志定义加载器  
-* @author : KangNing Hu
-*/
+ * 默认实现的日志定义加载器
+ *
+ * @author : KangNing Hu
+ */
 public class DefaultRecordDefinitionRegistryTest {
 
 
-	/**
-	 * 注册和获取测试
-	 * @throws IntrospectionException
-	 */
-	@Test
-	public void registerAndGet() throws IntrospectionException {
+  /**
+   * 注册和获取测试
+   */
+  @Test
+  public void registerAndGet() throws IntrospectionException {
 
-		BeanInfo beanInfo = Introspector.getBeanInfo(User.class);
-		MethodDescriptor methodDescriptor = beanInfo.getMethodDescriptors()[0];
-		Method method = methodDescriptor.getMethod();
+    BeanInfo beanInfo = Introspector.getBeanInfo(User.class);
+    MethodDescriptor methodDescriptor = beanInfo.getMethodDescriptors()[0];
+    Method method = methodDescriptor.getMethod();
 
-		DefaultRecordDefinitionRegistry defaultLogDefinitionRegistry = new DefaultRecordDefinitionRegistry();
-		DefaultRecordDefinition defaultLogDefinition = new DefaultRecordDefinition();
-		defaultLogDefinition.setMethod(method);
-		defaultLogDefinition.setTargetClass(User.class);
-		defaultLogDefinitionRegistry.register(defaultLogDefinition);
-		RecordDefinition recordDefinition = defaultLogDefinitionRegistry.getRecordDefinition( User.class , method);
+    DefaultRecordDefinitionRegistry defaultLogDefinitionRegistry = new DefaultRecordDefinitionRegistry();
+    DefaultRecordDefinition defaultLogDefinition = new DefaultRecordDefinition();
+    defaultLogDefinition.setMethod(method);
+    defaultLogDefinition.setTargetClass(User.class);
+    defaultLogDefinitionRegistry.register(defaultLogDefinition);
+    RecordDefinition recordDefinition = defaultLogDefinitionRegistry
+        .getRecordDefinition(User.class, method);
 
-		assert recordDefinition == defaultLogDefinition : "注册和获取测试失败";
-	}
+    assert recordDefinition == defaultLogDefinition : "注册和获取测试失败";
+  }
 }

@@ -9,145 +9,146 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
-* 默认的记录定义
-* @author : KangNing Hu
-*/
+ * 默认的记录定义
+ *
+ * @author : KangNing Hu
+ */
 public class DefaultRecordDefinition extends AttributeAccess implements RecordDefinition {
 
-	private Class<?> targetClass;
+  private Class<?> targetClass;
 
-	private Method method;
-
-
-	private String temple;
+  private Method method;
 
 
-	private boolean async;
+  private String temple;
 
 
-	private String processorStrategy;
+  private boolean async;
 
 
-	private Class<? extends RecordProducer> recordProducerClass;
+  private String processorStrategy;
 
 
-	private Class<? extends Pipeline> pipelineClass;
+  private Class<? extends RecordProducer> recordProducerClass;
 
 
-	private Advice advice;
+  private Class<? extends Pipeline> pipelineClass;
 
 
-	private List<ParamNode>[] params;
+  private Advice advice;
 
 
-	private String name;
+  private List<ParamNode>[] params;
 
 
-	public void setTargetClass(Class<?> targetClass) {
-		this.targetClass = targetClass;
-	}
-
-	public void setMethod(Method method) {
-		this.method = method;
-	}
-
-	public void setTemple(String temple) {
-		this.temple = temple;
-	}
-
-	public void setAsync(boolean async) {
-		this.async = async;
-	}
-
-	public void setProcessorStrategy(String processorStrategy) {
-		this.processorStrategy = processorStrategy;
-	}
-
-	public void setRecordProducerClass(Class<? extends RecordProducer> recordProducerClass) {
-		this.recordProducerClass = recordProducerClass;
-	}
-
-	public void setPipelineClass(Class<? extends Pipeline> pipelineClass) {
-		this.pipelineClass = pipelineClass;
-	}
-
-	public void setAdvice(Advice advice) {
-		this.advice = advice;
-	}
-
-	public void setParams(List<ParamNode>[] params) {
-		this.params = params;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	@Override
-	public Class<?> getTargetClass() {
-		return this.targetClass;
-	}
+  private String name;
 
 
-	@Override
-	public Method getMethod() {
-		return this.method;
-	}
+  public void setTargetClass(Class<?> targetClass) {
+    this.targetClass = targetClass;
+  }
 
-	@Override
-	public String getTemple() {
-		return this.temple;
-	}
+  public void setMethod(Method method) {
+    this.method = method;
+  }
 
-	@Override
-	public Boolean isAsync() {
-		return this.async;
-	}
+  public void setTemple(String temple) {
+    this.temple = temple;
+  }
 
-	@Override
-	public String getProcessorStrategy() {
-		return this.processorStrategy;
-	}
+  public void setAsync(boolean async) {
+    this.async = async;
+  }
 
-	@Override
-	public Class<? extends RecordProducer> getRecordProducerClass() {
-		return this.recordProducerClass;
-	}
+  public void setProcessorStrategy(String processorStrategy) {
+    this.processorStrategy = processorStrategy;
+  }
 
-	@Override
-	public Class<? extends Pipeline> getPipelineClass() {
-		return this.pipelineClass;
-	}
+  public void setRecordProducerClass(Class<? extends RecordProducer> recordProducerClass) {
+    this.recordProducerClass = recordProducerClass;
+  }
 
-	@Override
-	public String getName() {
-		return this.name;
-	}
+  public void setPipelineClass(Class<? extends Pipeline> pipelineClass) {
+    this.pipelineClass = pipelineClass;
+  }
 
-	@Override
-	public List<ParamNode>[] getParams() {
-		return this.params;
-	}
+  public void setAdvice(Advice advice) {
+    this.advice = advice;
+  }
 
-	@Override
-	public Advice getAdvice() {
-		return this.advice;
-	}
+  public void setParams(List<ParamNode>[] params) {
+    this.params = params;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  @Override
+  public Class<?> getTargetClass() {
+    return this.targetClass;
+  }
 
 
-	@Override
-	public String toString() {
-		return "DefaultRecordDefinition{" +
-				"targetClass=" + targetClass +
-				", method=" + method +
-				", temple='" + temple + '\'' +
-				", async=" + async +
-				", processorStrategy='" + processorStrategy + '\'' +
-				", recordProducerClass=" + recordProducerClass +
-				", pipelineClass=" + pipelineClass +
-				", advice=" + advice +
-				", params=" + Arrays.toString(params) +
-				", name='" + name + '\'' +
-				"} " + super.toString();
-	}
+  @Override
+  public Method getMethod() {
+    return this.method;
+  }
+
+  @Override
+  public String getTemple() {
+    return this.temple;
+  }
+
+  @Override
+  public Boolean isAsync() {
+    return this.async;
+  }
+
+  @Override
+  public String getProcessorStrategy() {
+    return this.processorStrategy;
+  }
+
+  @Override
+  public Class<? extends RecordProducer> getRecordProducerClass() {
+    return this.recordProducerClass;
+  }
+
+  @Override
+  public Class<? extends Pipeline> getPipelineClass() {
+    return this.pipelineClass;
+  }
+
+  @Override
+  public String getName() {
+    return this.name;
+  }
+
+  @Override
+  public List<ParamNode>[] getParams() {
+    return this.params;
+  }
+
+  @Override
+  public Advice getAdvice() {
+    return this.advice;
+  }
+
+
+  @Override
+  public String toString() {
+    return "DefaultRecordDefinition{" +
+        "targetClass=" + targetClass +
+        ", method=" + method +
+        ", temple='" + temple + '\'' +
+        ", async=" + async +
+        ", processorStrategy='" + processorStrategy + '\'' +
+        ", recordProducerClass=" + recordProducerClass +
+        ", pipelineClass=" + pipelineClass +
+        ", advice=" + advice +
+        ", params=" + Arrays.toString(params) +
+        ", name='" + name + '\'' +
+        "} " + super.toString();
+  }
 }

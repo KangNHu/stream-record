@@ -10,75 +10,68 @@ import java.util.List;
 
 /**
  * 记录定义 用于说明 method 的记录记录
+ *
  * @author hukangning
  */
 public interface RecordDefinition {
 
 
-	Class<?> getTargetClass();
+  Class<?> getTargetClass();
 
-	/**
-	 * 被记录的方法
-	 * @return
-	 */
-	Method getMethod();
-
-
-	/**
-	 * 记录模版
-	 * 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#EXPRESSION_NAME}时 则代表的是el表达式模版
-	 * 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#ROUTE_NAME}时 则代表路由的目标方法名称
-	 * @return
-	 */
-	String getTemple();
+  /**
+   * 被记录的方法
+   */
+  Method getMethod();
 
 
-	/**
-	 * 是否异步处理
-	 * @return
-	 */
-	Boolean isAsync();
+  /**
+   * 记录模版 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#EXPRESSION_NAME}时
+   * 则代表的是el表达式模版 当 {@link this#getProcessorStrategy()}为{@link ProcessorStrategy#ROUTE_NAME}时
+   * 则代表路由的目标方法名称
+   */
+  String getTemple();
 
 
-	/**
-	 * 处理策略
-	 * @see  ProcessorStrategy
-	 * @see  Processor
-	 * @return
-	 */
-	 String getProcessorStrategy();
+  /**
+   * 是否异步处理
+   */
+  Boolean isAsync();
 
 
-	/**
-	 * 记录生成器
-	 * @return
-	 */
-	Class<? extends RecordProducer> getRecordProducerClass();
+  /**
+   * 处理策略
+   *
+   * @see ProcessorStrategy
+   * @see Processor
+   */
+  String getProcessorStrategy();
 
 
-	/**
-	 * 管道参数
-	 * @return
-	 */
-	Class<? extends Pipeline> getPipelineClass();
-
-	/**
-	 * 获取定义名称
-	 * @return
-	 */
-	String getName();
+  /**
+   * 记录生成器
+   */
+  Class<? extends RecordProducer> getRecordProducerClass();
 
 
-	/**
-	 * 获取参数列表元数据
-	 * @return
-	 */
-	List<ParamNode>[] getParams();
+  /**
+   * 管道参数
+   */
+  Class<? extends Pipeline> getPipelineClass();
+
+  /**
+   * 获取定义名称
+   */
+  String getName();
 
 
-	/**
-	 * 获取记录执行通知
-	 * @return
-	 */
-	Advice getAdvice();
+  /**
+   * 获取参数列表元数据
+   */
+  List<ParamNode>[] getParams();
+
+
+  /**
+   * 获取记录执行通知
+   */
+  Advice getAdvice();
 }

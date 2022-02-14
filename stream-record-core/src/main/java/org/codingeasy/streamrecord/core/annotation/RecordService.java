@@ -11,39 +11,37 @@ import java.lang.annotation.*;
 
 /**
  * 审计 service 标识
+ *
  * @author hukangning
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.TYPE , ElementType.ANNOTATION_TYPE})
+@Target({ElementType.TYPE, ElementType.ANNOTATION_TYPE})
 @Documented
 public @interface RecordService {
 
-	/**
-	 * 拦截方式
-	 * @return
-	 */
-	Advice advice() default Advice.NONE;
+  /**
+   * 拦截方式
+   */
+  Advice advice() default Advice.NONE;
 
 
-	/**
-	 * 处理策略
-	 * @see  ProcessorStrategy
-	 * @see  Processor
-	 * @return
-	 */
-	String strategy() default "";
+  /**
+   * 处理策略
+   *
+   * @see ProcessorStrategy
+   * @see Processor
+   */
+  String strategy() default "";
 
 
-	/**
-	 * 记录生成器
-	 * @return
-	 */
-	Class<? extends RecordProducer> producerClass() default Record.Void.class;
+  /**
+   * 记录生成器
+   */
+  Class<? extends RecordProducer> producerClass() default Record.Void.class;
 
 
-	/**
-	 * 管道参数
-	 * @return
-	 */
-	Class<? extends Pipeline> pipelineClass() default Record.Void.class;
+  /**
+   * 管道参数
+   */
+  Class<? extends Pipeline> pipelineClass() default Record.Void.class;
 }

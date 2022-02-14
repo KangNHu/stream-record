@@ -13,47 +13,49 @@ import org.springframework.core.Ordered;
 import java.util.List;
 
 /**
-*    注册 {@link RecordService} 标注的类 到spring 中
- *    @see RecordService
-* @author : KangNing Hu
-*/
-public class RecordServiceBeanDefinitionRegister   implements ApplicationContextAware ,
-		BeanDefinitionRegistryPostProcessor , Ordered {
+ * 注册 {@link RecordService} 标注的类 到spring 中
+ *
+ * @author : KangNing Hu
+ * @see RecordService
+ */
+public class RecordServiceBeanDefinitionRegister implements ApplicationContextAware,
+    BeanDefinitionRegistryPostProcessor, Ordered {
 
 
-	private ApplicationContext applicationContext;
+  private ApplicationContext applicationContext;
 
-	/**
-	 * 注册 {@link RecordService} 标注的类 到spring 中
-	 * @see RecordService
-	 * @param beanDefinitionRegistry bean 定义注册器 默认实现为{@link org.springframework.beans.factory.support.DefaultListableBeanFactory}
-	 * @throws BeansException bean 的异常
-	 */
-	@Override
-	public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry beanDefinitionRegistry) throws BeansException {
-		//获取spring boot的包路径
-		List<String> packages = AutoConfigurationPackages.get(this.applicationContext);
-		RecordServiceDefinitionScanner scanner = new RecordServiceDefinitionScanner(beanDefinitionRegistry);
-		scanner.scan(packages.toArray(new String[]{}));
-	}
-
-
-
-
-	@Override
-	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-		this.applicationContext = applicationContext;
-	}
+  /**
+   * 注册 {@link RecordService} 标注的类 到spring 中
+   *
+   * @param beanDefinitionRegistry bean 定义注册器 默认实现为{@link org.springframework.beans.factory.support.DefaultListableBeanFactory}
+   * @throws BeansException bean 的异常
+   * @see RecordService
+   */
+  @Override
+  public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry beanDefinitionRegistry)
+      throws BeansException {
+    //获取spring boot的包路径
+    List<String> packages = AutoConfigurationPackages.get(this.applicationContext);
+    RecordServiceDefinitionScanner scanner = new RecordServiceDefinitionScanner(
+        beanDefinitionRegistry);
+    scanner.scan(packages.toArray(new String[]{}));
+  }
 
 
+  @Override
+  public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+    this.applicationContext = applicationContext;
+  }
 
-	@Override
-	public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
 
-	}
+  @Override
+  public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory)
+      throws BeansException {
 
-	@Override
-	public int getOrder() {
-		return Ordered.LOWEST_PRECEDENCE;
-	}
+  }
+
+  @Override
+  public int getOrder() {
+    return Ordered.LOWEST_PRECEDENCE;
+  }
 }

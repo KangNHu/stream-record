@@ -20,75 +20,61 @@ import java.lang.reflect.Method;
  *
  * @author : KangNing Hu
  */
-public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implements InstantiationAwareBeanPostProcessor ,
-		    Ordered {
+public class RecordDefinitionAutoRegistry extends RecordPointcutAdvisor implements
+    InstantiationAwareBeanPostProcessor,
+    Ordered {
 
-	private Logger logger = LoggerFactory.getLogger(RecordDefinitionAutoRegistry.class.getName());
-
-
-
+  private Logger logger = LoggerFactory.getLogger(RecordDefinitionAutoRegistry.class.getName());
 
 
-
-	@Override
-	public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
-		Class<?> beanClass = bean.getClass();
-		if (AopUtils.isAopProxy(bean)){
-			 beanClass = AopUtils.getTargetClass(bean);
-		}
-		//判断是否为record definition class
-		if (isNotRecordDefinitionClass(beanClass)){
-			return true;
-		}
-		Class targetClass = beanClass;
-		//注册record definition
-		do {
-			final Class finalTargetClass = targetClass;
-			ReflectionUtils.doWithMethods(beanClass, method -> {
-				if (method.isAnnotationPresent(Record.class)) {
-					RecordDefinition recordDefinition = buildRecordDefinition(finalTargetClass, method);
-					logger.info("注册记录定义 -> {}", recordDefinition.toString());
-					this.register(recordDefinition);
-				}
-			});
-			//遍历父类方法
-			targetClass = beanClass.getSuperclass();
-		} while (targetClass != null  && targetClass != Object.class);
-		return true;
-	}
-
+  @Override
+  public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
+    Class<?> beanClass = bean.getClass();
+    if (AopUtils.isAopProxy(bean)) {
+      beanClass = AopUtils.getTargetClass(bean);
+    }
+    //判断是否为record definition class
+    if (isNotRecordDefinitionClass(beanClass)) {
+      return true;
+    }
+    Class targetClass = beanClass;
+    //注册record definition
+    do {
+      final Class finalTargetClass = targetClass;
+      ReflectionUtils.doWithMethods(beanClass, method -> {
+        if (method.isAnnotationPresent(Record.class)) {
+          RecordDefinition recordDefinition = buildRecordDefinition(finalTargetClass, method);
+          logger.info("注册记录定义 -> {}", recordDefinition.toString());
+          this.register(recordDefinition);
+        }
+      });
+      //遍历父类方法
+      targetClass = beanClass.getSuperclass();
+    } while (targetClass != null && targetClass != Object.class);
+    return true;
+  }
 
 
+  /**
+   * 构建record 定义
+   */
+  private RecordDefinition buildRecordDefinition(Class<?> beanClass, Method method) {
+    RecordDefinitionBuilder recordDefinitionBuilder = new RecordDefinitionBuilder(method,
+        beanClass);
+    return recordDefinitionBuilder.getGenericRecordDefinition();
+  }
 
 
-
-	/**
-	 * 构建record 定义
-	 *
-	 * @param beanClass
-	 * @param method
-	 * @return
-	 */
-	private RecordDefinition buildRecordDefinition(Class<?> beanClass, Method method) {
-		RecordDefinitionBuilder recordDefinitionBuilder = new RecordDefinitionBuilder(method, beanClass);
-		return recordDefinitionBuilder.getGenericRecordDefinition();
-	}
+  /**
+   * 校验是否为record definition的class
+   */
+  private boolean isNotRecordDefinitionClass(Class<?> beanClass) {
+    return !beanClass.isAnnotationPresent(RecordService.class);
+  }
 
 
-	/**
-	 * 校验是否为record definition的class
-	 * @param beanClass
-	 * @return
-	 */
-	private boolean isNotRecordDefinitionClass(Class<?> beanClass) {
-		return !beanClass.isAnnotationPresent(RecordService.class);
-	}
-
-
-
-
-	@Override
-	public int getOrder() {
-		return Ordered.LOWEST_PRECEDENCE;
-	}
+  @Override
+  public int getOrder() {
+    return Ordered.LOWEST_PRECEDENCE;
+  }
 }

@@ -16,65 +16,59 @@ import java.lang.annotation.*;
 public @interface Record {
 
 
-	/**
-	 * 记录表达式
-	 * 当 strategy 为 ProcessorStrategy.EXPRESSION_NAME策略时 value 为 表达式
-	 * 当 strategy 为 ProcessorStrategy.ROUTE 策略时 value 为路由的目标方法
-	 * @return
-	 */
-	String value();
+  /**
+   * 记录表达式 当 strategy 为 ProcessorStrategy.EXPRESSION_NAME策略时 value 为 表达式 当 strategy 为
+   * ProcessorStrategy.ROUTE 策略时 value 为路由的目标方法
+   */
+  String value();
 
 
-	/**
-	 * 是否异步处理
-	 * @return
-	 */
-	boolean isAsync() default true;
+  /**
+   * 是否异步处理
+   */
+  boolean isAsync() default true;
 
 
-	/**
-	 * 处理策略
-	 * @see  ProcessorStrategy
-	 * @see  Processor
-	 * @return
-	 */
-	String strategy() default ProcessorStrategy.EXPRESSION_NAME;
+  /**
+   * 处理策略
+   *
+   * @see ProcessorStrategy
+   * @see Processor
+   */
+  String strategy() default ProcessorStrategy.EXPRESSION_NAME;
 
-	/**
-	 * 记录生成器
-	 * @return
-	 */
-	Class<? extends RecordProducer> producerClass() default Void.class;
-
-
-	/**
-	 * 管道
-	 * @return
-	 */
-	Class<? extends Pipeline> pipelineClass() default Void.class;
+  /**
+   * 记录生成器
+   */
+  Class<? extends RecordProducer> producerClass() default Void.class;
 
 
-	/**
-	 * 拦截方式
-	 * @return
-	 */
-	Advice advice() default Advice.AFTER;
-
-	/**
-	 * 空的实现
-	 */
-	class Void implements Pipeline, RecordProducer {
+  /**
+   * 管道
+   */
+  Class<? extends Pipeline> pipelineClass() default Void.class;
 
 
-		@Override
-		public RecordInfoWrapper doProduce(CurrentContext currentContext) {
-			return null;
-		}
+  /**
+   * 拦截方式
+   */
+  Advice advice() default Advice.AFTER;
 
-		@Override
-		public void doConsume(RecordInfoWrapper recordInfoWrapper) {
+  /**
+   * 空的实现
+   */
+  class Void implements Pipeline, RecordProducer {
 
-		}
-	}
+
+    @Override
+    public RecordInfoWrapper doProduce(CurrentContext currentContext) {
+      return null;
+    }
+
+    @Override
+    public void doConsume(RecordInfoWrapper recordInfoWrapper) {
+
+    }
+  }
 
 }

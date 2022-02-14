@@ -11,12 +11,13 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
-* 激活 流式记录
-* @author : KangNing Hu
-*/
+ * 激活 流式记录
+ *
+ * @author : KangNing Hu
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import({RecordServiceBeanDefinitionRegister.class , StreamRecordAutoConfiguration.class})
+@Import({RecordServiceBeanDefinitionRegister.class, StreamRecordAutoConfiguration.class})
 public @interface EnableStreamRecord {
 
 }

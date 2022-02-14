@@ -7,18 +7,15 @@ import org.codingeasy.streamrecord.examples.pojo.User;
 import org.codingeasy.streamrecord.examples.service.UserService;
 
 /**
-*   
-* @author : KangNing Hu
-*/
+ * @author : KangNing Hu
+ */
 @RecordService
 public class UserServiceImpl implements UserService {
 
 
+  @Record("'这是一个简单的日志记录，用户的名称是：' + #user.name")
+  @Override
+  public void simple(@Search User user) {
 
-
-	@Record("'这是一个简单的日志记录，用户的名称是：' + #user.name")
-	@Override
-	public void simple(@Search User user) {
-
-	}
+  }
 }

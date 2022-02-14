@@ -9,5 +9,5 @@ import org.codingeasy.streamrecord.core.model.User;
 public interface UserService {
 
 
-	void simple(User user);
+  void simple(User user);
 }

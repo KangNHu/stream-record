@@ -4,46 +4,46 @@ import org.codingeasy.streamrecord.core.annotation.Param;
 import org.codingeasy.streamrecord.core.annotation.Search;
 
 /**
-* 地址模型  
-* @author : KangNing Hu
-*/
+ * 地址模型
+ *
+ * @author : KangNing Hu
+ */
 public class Address {
 
 
-
-	private String addressId;
-
-
-	@Param
-	@Search
-	private String addr;
+  private String addressId;
 
 
-	@Param
-	private String cityCode;
+  @Param
+  @Search
+  private String addr;
 
 
-	public String getAddressId() {
-		return addressId;
-	}
+  @Param
+  private String cityCode;
 
-	public void setAddressId(String addressId) {
-		this.addressId = addressId;
-	}
 
-	public String getAddr() {
-		return addr;
-	}
+  public String getAddressId() {
+    return addressId;
+  }
 
-	public void setAddr(String addr) {
-		this.addr = addr;
-	}
+  public void setAddressId(String addressId) {
+    this.addressId = addressId;
+  }
 
-	public String getCityCode() {
-		return cityCode;
-	}
+  public String getAddr() {
+    return addr;
+  }
 
-	public void setCityCode(String cityCode) {
-		this.cityCode = cityCode;
-	}
+  public void setAddr(String addr) {
+    this.addr = addr;
+  }
+
+  public String getCityCode() {
+    return cityCode;
+  }
+
+  public void setCityCode(String cityCode) {
+    this.cityCode = cityCode;
+  }
 }

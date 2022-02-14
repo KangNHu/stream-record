@@ -4,167 +4,174 @@ import org.aopalliance.intercept.MethodInvocation;
 import org.codingeasy.streamrecord.core.matedata.RecordDefinition;
 
 /**
-* 当前上下文  
-* @author : KangNing Hu
-*/
+ * 当前上下文
+ *
+ * @author : KangNing Hu
+ */
 public class CurrentContext {
 
-	/**
-	 * 记录定义注册器
-	 */
-	private RecordDefinitionRegistry recordDefinitionRegistry;
+  /**
+   * 记录定义注册器
+   */
+  private RecordDefinitionRegistry recordDefinitionRegistry;
 
-	/**
-	 * 当前参数属性
-	 */
-	private AttributeAccess attributeAccess;
+  /**
+   * 当前参数属性
+   */
+  private AttributeAccess attributeAccess;
 
-	/**
-	 * 拦截方法包装
-	 */
-	private InterceptMethodWrapper interceptMethodWrapper;
-
-
-	/**
-	 * 当前上下文定义
-	 */
-	private RecordDefinition recordDefinition;
+  /**
+   * 拦截方法包装
+   */
+  private InterceptMethodWrapper interceptMethodWrapper;
 
 
-	/**
-	 * 上下文
-	 */
-	private Pipeline pipeline;
+  /**
+   * 当前上下文定义
+   */
+  private RecordDefinition recordDefinition;
 
 
-	/**
-	 * 记录生产器
-	 */
-	private RecordProducer recordProducer;
-
-	/**
-	 * 处理策略
-	 */
-	private String  processorStrategyName;
+  /**
+   * 上下文
+   */
+  private Pipeline pipeline;
 
 
-	/**
-	 * 执行异常
-	 */
-	private Throwable throwable;
+  /**
+   * 记录生产器
+   */
+  private RecordProducer recordProducer;
 
-	/**
-	 * 业务执行的开始时间
-	 */
-	private Long startTime;
-
-	/**
-	 * 业务执行的结束时间
-	 */
-	private Long endTime;
+  /**
+   * 处理策略
+   */
+  private String processorStrategyName;
 
 
-	public CurrentContext(RecordDefinitionRegistry recordDefinitionRegistry, AttributeAccess attributeAccess, InterceptMethodWrapper interceptMethodWrapper){
-		this.recordDefinitionRegistry = recordDefinitionRegistry;
-		this.attributeAccess = attributeAccess;
-		this.interceptMethodWrapper = interceptMethodWrapper;
-	}
+  /**
+   * 执行异常
+   */
+  private Throwable throwable;
 
-	/**
-	 * 解析record定义
-	 */
-	void parseRecordDefinition(ComponentFactory componentFactory) {
-		this.recordDefinition = recordDefinitionRegistry.getRecordDefinition(interceptMethodWrapper.getTarget().getClass() ,this.interceptMethodWrapper.getMethod());
-		if (this.recordDefinition == null){
-			throw new IllegalStateException("当前方法没有对应的RecordDefinition");
-		}
-		//创建记录生成器
-		Class<? extends RecordProducer> recordProducerClass = this.recordDefinition.getRecordProducerClass();
-		this.recordProducer = (RecordProducer) componentFactory.createComponent(recordProducerClass);
-		//创建管道
-		Class<? extends Pipeline> pipelineClass = this.recordDefinition.getPipelineClass();
-		this.pipeline = (Pipeline) componentFactory.createComponent(pipelineClass);
-		//处理策略
-		this.processorStrategyName = this.recordDefinition.getProcessorStrategy();
-	}
+  /**
+   * 业务执行的开始时间
+   */
+  private Long startTime;
 
-	/**
-	 * 方法调用
-	 * @return
-	 * @throws Throwable
-	 */
-	public Object invoke() throws Throwable {
-		this.startTime = System.currentTimeMillis();
-		try {
-			MethodInvocation methodInvocation = this.interceptMethodWrapper.getMethodInvocation();
-			return methodInvocation.proceed();
-		}finally {
-			this.endTime = System.currentTimeMillis();
-		}
-	}
+  /**
+   * 业务执行的结束时间
+   */
+  private Long endTime;
 
 
-	/**
-	 * 是否有异常
-	 * @return 有异常返回true，否则返回false
-	 */
-	public boolean hasException(){
-		return this.throwable != null;
-	}
+  public CurrentContext(RecordDefinitionRegistry recordDefinitionRegistry,
+      AttributeAccess attributeAccess, InterceptMethodWrapper interceptMethodWrapper) {
+    this.recordDefinitionRegistry = recordDefinitionRegistry;
+    this.attributeAccess = attributeAccess;
+    this.interceptMethodWrapper = interceptMethodWrapper;
+  }
 
-	/**
-	 * 获取业务执行的持续时间
-	 * @return 返回业务方法执行的持续时间， 如果执行通知类型为{@link org.codingeasy.streamrecord.core.matedata.Advice#BEFORE} 则持续时间返回-1
-	 */
-	public Long getDuration(){
-		if (this.endTime == null || this.startTime == null){
-			return 0L;
-		}
-		return this.endTime - this.startTime;
-	}
+  /**
+   * 解析record定义
+   */
+  void parseRecordDefinition(ComponentFactory componentFactory) {
+    this.recordDefinition = recordDefinitionRegistry
+        .getRecordDefinition(interceptMethodWrapper.getTarget().getClass(),
+            this.interceptMethodWrapper.getMethod());
+    if (this.recordDefinition == null) {
+      throw new IllegalStateException("当前方法没有对应的RecordDefinition");
+    }
+    //创建记录生成器
+    Class<? extends RecordProducer> recordProducerClass = this.recordDefinition
+        .getRecordProducerClass();
+    this.recordProducer = (RecordProducer) componentFactory.createComponent(recordProducerClass);
+    //创建管道
+    Class<? extends Pipeline> pipelineClass = this.recordDefinition.getPipelineClass();
+    this.pipeline = (Pipeline) componentFactory.createComponent(pipelineClass);
+    //处理策略
+    this.processorStrategyName = this.recordDefinition.getProcessorStrategy();
+  }
 
-	public Long getStartTime() {
-		return startTime;
-	}
+  /**
+   * 方法调用
+   */
+  public Object invoke() throws Throwable {
+    this.startTime = System.currentTimeMillis();
+    try {
+      MethodInvocation methodInvocation = this.interceptMethodWrapper.getMethodInvocation();
+      return methodInvocation.proceed();
+    } finally {
+      this.endTime = System.currentTimeMillis();
+    }
+  }
 
 
-	public Long getEndTime() {
-		return endTime;
-	}
+  /**
+   * 是否有异常
+   *
+   * @return 有异常返回true，否则返回false
+   */
+  public boolean hasException() {
+    return this.throwable != null;
+  }
+
+  /**
+   * 获取业务执行的持续时间
+   *
+   * @return 返回业务方法执行的持续时间， 如果执行通知类型为{@link org.codingeasy.streamrecord.core.matedata.Advice#BEFORE}
+   * 则持续时间返回-1
+   */
+  public Long getDuration() {
+    if (this.endTime == null || this.startTime == null) {
+      return 0L;
+    }
+    return this.endTime - this.startTime;
+  }
+
+  public Long getStartTime() {
+    return startTime;
+  }
 
 
-	public RecordDefinitionRegistry getRecordDefinitionRegistry() {
-		return recordDefinitionRegistry;
-	}
+  public Long getEndTime() {
+    return endTime;
+  }
 
-	public AttributeAccess getAttributeAccess() {
-		return attributeAccess;
-	}
 
-	public InterceptMethodWrapper getInterceptMethodWrapper() {
-		return interceptMethodWrapper;
-	}
+  public RecordDefinitionRegistry getRecordDefinitionRegistry() {
+    return recordDefinitionRegistry;
+  }
 
-	public RecordDefinition getRecordDefinition() {
-		return recordDefinition;
-	}
+  public AttributeAccess getAttributeAccess() {
+    return attributeAccess;
+  }
 
-	public Throwable getThrowable() {
-		return throwable;
-	}
+  public InterceptMethodWrapper getInterceptMethodWrapper() {
+    return interceptMethodWrapper;
+  }
 
-	public void setThrowable(Throwable throwable) {
-		this.throwable = throwable;
-	}
-	public Pipeline getPipeline() {
-		return pipeline;
-	}
+  public RecordDefinition getRecordDefinition() {
+    return recordDefinition;
+  }
 
-	public RecordProducer getRecordProducer() {
-		return recordProducer;
-	}
+  public Throwable getThrowable() {
+    return throwable;
+  }
 
-	public String getProcessorStrategyName() {
-		return processorStrategyName;
-	}
+  public void setThrowable(Throwable throwable) {
+    this.throwable = throwable;
+  }
+
+  public Pipeline getPipeline() {
+    return pipeline;
+  }
+
+  public RecordProducer getRecordProducer() {
+    return recordProducer;
+  }
+
+  public String getProcessorStrategyName() {
+    return processorStrategyName;
+  }
 }
